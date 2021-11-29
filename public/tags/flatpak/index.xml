@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flatpak, on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/flatpak/</link>
+    <description>Recent content in Flatpak, on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://opentechlife.tk/tags/flatpak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flatpak Só Reconhece Pasta Downloads? Veja aqui o que fazer</title>
+      <link>https://opentechlife.tk/posts/flatpak-so-reconhece-downloads/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/flatpak-so-reconhece-downloads/</guid>
+      <description>Introdução  O Flatpak é um utilitário de gerenciamento de pacotes, que te permite distribuir, instalar e gerenciar programas sem a necessidade de se preocupar com dependências, já que utiliza a tecnologia dos conteiners. Atualmente, ele é um dos gerenciadores mais práticos, já que basta somente instalá-lo em seu sistema e começar a usar!
+ Porém, acontece de algumas aplicações não terem acesso a diretórios como Documentos, ou Vídeos… Isso acaba atrapalhando na hora de enviar um arquivo pra alguém pelo Telegram Desktop (Flatpak) por exemplo.</description>
+    </item>
+    
+  </channel>
+</rss>

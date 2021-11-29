@@ -1,0 +1,58 @@
+baseURL = "https://opentechlife.tk/"
+languageCode = "pt-br"
+theme = "dream"
+defaultContentLanguage = "pt"
+disableLanguages = ["fr", "ja","ch"]
+title = "Eletiva"
+
+# Copyright
+#copyright = "Eletiva"
+
+[params]
+  author = "Vinícius"
+  description = "Um site desenvolvido por alunos do ensino médio com objetivo de transmitir conhecimento" # descrição que irá aparecer nos buscadores
+  avatar = "https://cdn.discordapp.com/attachments/806642907263139850/914989928868376576/Untitled.jpeg"
+  headerTitle = "Eletiva"
+  motto = '"O importante é não parar de questionar." - Albert Einstein' # descrição que fica no site
+showSummaryCoverInPost = true
+  
+ # dark mode
+defaultDark = true
+backgroundDark = "#2e3440"
+darkLinkColor = "#2f589c"
+darkNav = true
+dark404 = true
+
+ # Highlights
+highlightjs = true
+highlightjsExtraLanguages = ["ocaml"]
+highlightjsTheme = "gruvbox-light"
+highlightjsThemeDark = "gruvbox-dark"
+
+favicon= "https://cdn.discordapp.com/attachments/806642907263139850/914989928868376576/Untitled.jpeg"
+
+# RSS
+rss = true
+
+# Busca
+enableSearch = true
+
+#  email = "g1enyy0ung@gmail.com"
+#  twitter = "g1eny0ung"
+#  facebook = "g1eny0ung"
+instagram = "eletiva_2ano"
+#  # mastodon = ""
+#  linkedin = "钺杨g1eny0ung"
+#  github = "Eletiva2ano"
+#  stackoverflow = "5676489/g1eny0ung"
+#  codepen = "g1eny0ung"
+
+  siteStartYear = 2021
+
+
+
+
+
+#[outputs]
+#  home = ["HTML", "RSS", "JSON"]
+#reversePostAndAside = true

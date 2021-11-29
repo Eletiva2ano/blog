@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/windows/</link>
+    <description>Recent content in Windows on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 25 Jun 2021 17:57:00 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 11! Mas e agora?</title>
+      <link>https://opentechlife.tk/posts/windows-11-lan%C3%A7ado/</link>
+      <pubDate>Fri, 25 Jun 2021 17:57:00 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/windows-11-lan%C3%A7ado/</guid>
+      <description>Finalmente o momento que muitos aguardavam chegou, o tão esperado Windows 11 finalmente foi anunciado de forma oficial nesta quinta-feira (24). Mas e agora? Como vai ser pra baixar ele? Onde eu encontro a ISO? E o que ele vai ter de novidade?
+Bem, essas perguntas vão ser respondidas no post de hoje, e a melhor parte, tudo isso baseado em dados oficiais. Então tudo que for falado é uma certeza que vai acontecer.</description>
+    </item>
+    
+    <item>
+      <title>Windows 11!? Será que Vale a Pena?</title>
+      <link>https://opentechlife.tk/posts/windows-11-vale-a-pena/</link>
+      <pubDate>Thu, 17 Jun 2021 09:55:00 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/windows-11-vale-a-pena/</guid>
+      <description>Recentemente saiu uma onda de boatos na internet sobre o Windows 11. Cada dia que passa esses boatos ganham mais força através de fotos e videos não oficiais divulgadas na internet, e a única informação que temos oficial é a de um evento que vai ocorrer muito em breve, mas o mesmo não deixa claro se o novo Windows vai ser anunciado. O anúncio foi divulgado no próprio site da microsoft e pode ser acessado aqui.</description>
+    </item>
+    
+    <item>
+      <title>Como instalar qualquer distro Linux sem pendrive</title>
+      <link>https://opentechlife.tk/posts/linux-sem-pendrive/</link>
+      <pubDate>Fri, 22 Jan 2021 19:01:18 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/linux-sem-pendrive/</guid>
+      <description>Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows. Requisitos:
+ Windows 8 ou mais novo(O Windows 7 não é suportado, já que não trabalha com Uefi). UEFI ativado.   É meio triste ser necessário o suporte a UEFI, já que não funcionará em máquinas antigas. Como já dito antes, este tutorial foca em máquinas com Windows.</description>
+    </item>
+    
+  </channel>
+</rss>

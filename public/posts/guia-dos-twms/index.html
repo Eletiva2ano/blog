@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>O Guia dos Tiling Window Managers (TWMs) | OpenTech Life</title>
+
+    
+<link href="https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/128/22272-penguin-icon.png" rel="shortcut icon" type="image/x-icon" />
+
+
+
+
+<meta name="author" content="Today" />
+<meta name="description" content="Esse guia é um resumo sobre Tiling Window Managers
+O que é um Window Manager (WM)  Um window manager como o nome diz é um gerenciador de janelas, em sua essência ele nada faz alem de permitir que o usuário veja as janelas do desktop, toda interface utiliza um window manager, entretanto a maior parte das pessoas usa um window manager em conjunto com um Desktop Enviroment (DE).
+Um desktop environment nada mais é do que todo um conjunto de coisas atreladas a interface e usabilidade do desktop, nele podem estar contidos: window manager, terminal próprio, editor de texto, compositor, gerenciador de arquivos, notificações, central de configurações e outras coisas." />
+
+
+
+<meta name="generator" content="Hugo 0.89.4" />
+
+<link rel="canonical" href="https://opentechlife.tk/posts/guia-dos-twms/" />
+
+
+<meta property="og:title" content="O Guia dos Tiling Window Managers (TWMs)" />
+<meta property="og:description" content="Esse guia é um resumo sobre Tiling Window Managers
+O que é um Window Manager (WM)  Um window manager como o nome diz é um gerenciador de janelas, em sua essência ele nada faz alem de permitir que o usuário veja as janelas do desktop, toda interface utiliza um window manager, entretanto a maior parte das pessoas usa um window manager em conjunto com um Desktop Enviroment (DE).
+Um desktop environment nada mais é do que todo um conjunto de coisas atreladas a interface e usabilidade do desktop, nele podem estar contidos: window manager, terminal próprio, editor de texto, compositor, gerenciador de arquivos, notificações, central de configurações e outras coisas." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://opentechlife.tk/posts/guia-dos-twms/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-12-11T08:10:58+00:00" />
+<meta property="article:modified_time" content="2020-12-11T08:10:58+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="O Guia dos Tiling Window Managers (TWMs)"/>
+<meta name="twitter:description" content="Esse guia é um resumo sobre Tiling Window Managers
+O que é um Window Manager (WM)  Um window manager como o nome diz é um gerenciador de janelas, em sua essência ele nada faz alem de permitir que o usuário veja as janelas do desktop, toda interface utiliza um window manager, entretanto a maior parte das pessoas usa um window manager em conjunto com um Desktop Enviroment (DE).
+Um desktop environment nada mais é do que todo um conjunto de coisas atreladas a interface e usabilidade do desktop, nele podem estar contidos: window manager, terminal próprio, editor de texto, compositor, gerenciador de arquivos, notificações, central de configurações e outras coisas."/>
+
+
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/icomoon.css" />
+<link rel="stylesheet" href="/css/OverlayScrollbars.min.css" />
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  a:not(.ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+
+  
+  .inverted a:not(.ui.button),
+  .inverted a:not(.ui.button):hover {
+     color: #2f589c !important;
+  }
+  
+
+  
+
+  
+  body.dark {
+    
+    background-color: #2e3440;
+    
+
+    
+  }
+  
+</style>
+
+
+    
+
+
+
+<link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/gruvbox-light.min.css" />
+
+
+
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+
+
+
+    
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Girar!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Página inicial" onclick="window.location.href = 'https:\/\/opentechlife.tk\/'"></i>
+  </div>
+  
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+  
+  
+  <div class="item">
+    <i class="large link search icon" onclick="toggleSearch()"></i>
+  </div>
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed grid dream-grid dream-grid-single">
+  <aside class="sixteen wide mobile sixteen wide tablet four wide computer column dream-single-aside">
+    
+    
+    <div class="ui segment toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#o-que-é-um-window-manager-wm">O que é um Window Manager (WM)</a></li>
+    <li><a href="#openboxhttpslh3googleusercontentcom-esggbthuylox6xypv0hu1iaaaaaaaaapitayfxc7fwrqasxrniqvyx-gfygghol1xwcncbgasyhqw543-h318imagepng"><img src="https://lh3.googleusercontent.com/-ESggbtHUYLo/X6xYPv0hu1I/AAAAAAAAAPI/TayfxC7FWRQAsXRnIQVyx-GfYGghol1XwCNcBGAsYHQ/w543-h318/image.png" alt="Openbox"></a></li>
+    <li><a href="#o-que-é-um-tiling-window-manager-twm">O que é um Tiling Window Manager (TWM)</a></li>
+    <li><a href="#xmonadhttpsiimgurcom27yg77kpng"><img src="https://i.imgur.com/27yg77k.png" alt="Xmonad"></a></li>
+    <li><a href="#quais-as-vantagens-">Quais as vantagens ?</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#quais-as-desvantagens">Quais as desvantagens</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#escolhendo-o-ponto-de-partida-e-o-ponto-de-chegada">Escolhendo o ponto de partida e o ponto de chegada</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#layouts-mais-comuns">Layouts mais comuns:</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#configure-seu-twm">Configure seu TWM!</a></li>
+    <li><a href="#fazendo-e-refazendo">Fazendo e Refazendo</a></li>
+    <li><a href="#recomendações-de-material">Recomendações de material:</a></li>
+  </ul>
+</nav>
+    </div>
+    
+    <div class="ui segment actions">
+      <button
+        class="ui circular icon button save-as-image"
+        title="Salvar como imagem"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i>
+      </button>
+
+      <a href="https://twitter.com/intent/tweet?text=O%20Guia%20dos%20Tiling%20Window%20Managers%20%28TWMs%29&url=https%3a%2f%2fopentechlife.tk%2fposts%2fguia-dos-twms%2f" class="ui circular twitter icon button">
+  <i class="twitter icon"></i>
+</a>
+<a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fopentechlife.tk%2fposts%2fguia-dos-twms%2f" class="ui circular facebook icon button">
+  <i class="facebook icon"></i>
+</a>
+
+    </div>
+  </aside>
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    
+    <div class="ui top attached segment cover">
+      <div class="cover-img" style="background-image: url(https://lh3.googleusercontent.com/-ESggbtHUYLo/X6xYPv0hu1I/AAAAAAAAAPI/TayfxC7FWRQAsXRnIQVyx-GfYGghol1XwCNcBGAsYHQ/w543-h318/image.png);"></div>
+    </div>
+    
+    <section class="ui attached segment">
+      <header>
+        <h1 class="ui large header">O Guia dos Tiling Window Managers (TWMs)<div class="sub header">
+            @
+            
+              
+                Today
+              
+            
+
+            | Sexta, 11 de Dezembro de 2020
+              
+
+            | 6 minutos de leitura
+
+            | Atualizado
+              Sexta, 11 de Dezembro de 2020
+              
+          </div>
+        </h1>
+      </header>
+
+      <article class="main"><p>Esse guia é um resumo sobre Tiling Window Managers</p>
+<h2 id="o-que-é-um-window-manager-wm">O que é um Window Manager (WM)</h2>
+<h2 id="openboxhttpslh3googleusercontentcom-esggbthuylox6xypv0hu1iaaaaaaaaapitayfxc7fwrqasxrniqvyx-gfygghol1xwcncbgasyhqw543-h318imagepng"><img src="https://lh3.googleusercontent.com/-ESggbtHUYLo/X6xYPv0hu1I/AAAAAAAAAPI/TayfxC7FWRQAsXRnIQVyx-GfYGghol1XwCNcBGAsYHQ/w543-h318/image.png" alt="Openbox"></h2>
+<p>Um window manager como o nome diz é um gerenciador de janelas, em sua essência ele nada faz alem de permitir que o usuário veja as janelas do desktop, toda interface utiliza um window manager, entretanto a maior parte das pessoas usa um window manager em conjunto com um Desktop Enviroment (DE).</p>
+<p>Um desktop environment nada mais é do que todo um conjunto de coisas atreladas a interface e usabilidade do desktop, nele podem estar contidos: window manager, terminal próprio, editor de texto, compositor, gerenciador de arquivos, notificações, central de configurações e outras coisas. Apesar de o comum ser o uso de um desktop environment algumas pessoas rodam window managers sozinhos, sem a necessidade usar uma DE.</p>
+<h2 id="o-que-é-um-tiling-window-manager-twm">O que é um Tiling Window Manager (TWM)</h2>
+<h2 id="xmonadhttpsiimgurcom27yg77kpng"><img src="https://i.imgur.com/27yg77k.png" alt="Xmonad"></h2>
+<p>Um tiling window manager nada mais é do que um WM que se divide e preenche a tela conforme janelas são abertas, não existe nenhuma DE famosa que use um tiling window manager, entretanto existem muitas boas opções de TWMs para serem rodados sem uma DE em conjunto. Alguns dos tiling window manager mais famosos são:</p>
+<ul>
+<li>
+<p><strong>I3 WM</strong></p>
+<p><img src="https://i3wm.org/screenshots/i3-9.png" alt="I3"></p>
+</li>
+<li>
+<p><strong>Awesome WM</strong></p>
+<p><img src="https://awesomewm.org/images/screen.png" alt="Awesome"></p>
+<p><strong>BSPWM</strong></p>
+<p><img src="https://cdn.discordapp.com/attachments/735050462717542411/776466000639819804/unknown.png" alt="BSPWM"></p>
+</li>
+<li>
+<p><strong>Xmonad</strong></p>
+<p><img src="https://cdn.discordapp.com/attachments/776201664902201346/776473438080598067/unknown.png" alt="XMONAD"></p>
+</li>
+<li>
+<p><strong>Qtile</strong></p>
+<p><img src="https://cdn.discordapp.com/attachments/776201664902201346/776467111794442270/demo.png" alt="Qtile"></p>
+</li>
+<li>
+<p><strong>Spectrwm</strong></p>
+<p><img src="https://raw.githubusercontent.com/wiki/conformal/spectrwm/Scrotwm1.png" alt="Spectrwm"></p>
+</li>
+</ul>
+<h2 id="quais-as-vantagens-">Quais as vantagens ?</h2>
+<h4 id="as-principais-vantagens-de-um-wm-comparado-a-uma-de-são">As principais vantagens de um WM comparado a uma DE são:</h4>
+<ul>
+<li>
+<p>Menor consumo de recursos - Isso se deve ao fato de que as DE instalar muitas coisas que o usuário não necessariamente usa então quando comparamos uma DE com um WM costumamos ver uma economia muito maior em uso de espaço, processador e memoria Ram.</p>
+</li>
+<li>
+<p>Customização - De maneira geral WMs te permitem muito mais flexibilidade tanto na customização deles em si quanto na escolha dos programas e ferramentas que normalmente viriam embarcadas com uma DE.</p>
+</li>
+</ul>
+<h4 id="as-principais-vantagens-de-um-twm-comparado-a-um-wm-tradicional-são">As principais vantagens de um TWM comparado a um WM tradicional são:</h4>
+<ul>
+<li>
+<p>Melhor fluxo de trabalho - Muitos defendem que a forma de um TWM funcionar da ao usuário um ganho muito grande de produtividade dentro do desktop, isso se deve ao fato de que um TWM não esconde janelas ele as divide dentro de cada workspace, assim o usuario nao perde tempo arrumando as janelas e nem procurando uma janela específica em uma pilha de janelas.</p>
+</li>
+<li>
+<p>Focado no teclado - Diferentemente de uma DE ou WM comum os TWMs tem um foco muito grande no uso do teclado como controle principal do desktop. - Espaço aproveitado - Pela forma com que os TWMs dividem o desktop não existe espaço perdido na, enquanto houver pelo menos uma janela todo o espaço útil do monitor será ocupado.</p>
+</li>
+<li>
+<p>Múltiplos monitores e áreas de trabalho (workspaces) - Os TWMs de maneira geral são muito otimizados para o uso de 2 monitores ou + trazendo assim vantagens colossais para esses usuários, para ajudar ainda mais os TWMs as workspaces são peça chave tanto no uso de múltiplos monitores como também para quem tem apenas 1 monitor.</p>
+</li>
+</ul>
+<h2 id="quais-as-desvantagens">Quais as desvantagens</h2>
+<h4 id="a-principal-desvantagem-de-um-wm-comparado-a-uma-de-é">A principal desvantagem de um WM comparado a uma DE é:</h4>
+<ul>
+<li>Configuração mais difícil e demorada - Os WMs no geral tem uma configuração muito mais difícil do que uma DE, isso pois a configuração costuma ser feita por um arquivo de texto ou diretamente no código fonte, e não é incomum usar linguagens de programação pouco conhecidas e/ou complicadas em sua configuração, um exemplo seria o Xmonad que é escrito e configurado em Haskell. Além disso um WM requer alguma configuração para ficar realmente funcional, a ideia aqui não é usá-lo “out-of-the-box”.</li>
+</ul>
+<h4 id="a-principal-desvantagem-de-um-twm-comparado-a-um-wm-convencional-é">A principal desvantagem de um TWM comparado a um WM convencional é:</h4>
+<ul>
+<li>Workflow - Apesar de muitas pessoas amarem o workflow dos TWMs existem também os que não se adaptam a essa forma nova de usar o desktop, e optam por maneiras mais convencionais de uso.</li>
+</ul>
+<h2 id="escolhendo-o-ponto-de-partida-e-o-ponto-de-chegada">Escolhendo o ponto de partida e o ponto de chegada</h2>
+<p>Minha recomendação é definir um TWM simples como partida e outro mais complexo como ponto de chegada, para isso primeiro devemos saber dos dois tipos de TWM:</p>
+<h4 id="manual-tambem-chamado-de-tree-based--manualhttpscolekilliancompostsmaking-i3-the-best-window-manager-with-i3-swallow-and-i3-layout-managerbeforegif">Manual (tambem chamado de TREE BASED)  <img src="https://colekillian.com/posts/making-i3-the-best-window-manager-with-i3-swallow-and-i3-layout-manager/before.gif" alt="MANUAL"></h4>
+<p>Esse tipo de TWM consiste em deixar a cargo do usuario definir onde a proxima janela vai estar e qual o tamanho da mesma.</p>
+<h4 id="dinâmico-tambem-chamado-de-list-based--manualhttpsistackimgurcomcauvsgif">Dinâmico (tambem chamado de LIST BASED)  <img src="https://i.stack.imgur.com/CAuvS.gif" alt="MANUAL"></h4>
+<p>Esses TWMs sao baseados em layouts que auto-organizam as janelas.</p>
+<p>Sabendo o seu tipo favorito você deve analisar algumas coisas para escolher seu ponto de partida, a recomendação é pegar um TWM que seja amigável a novos usuários, que tenha um layout de sua preferência se for Dinâmico e caso você tenha familiaridade com alguma linguagem de programação isso pode te dar uma grande vantagem na hora da configuração, os TWMs mais recomendados para começar na minha opinião são esses abaixo, pesquise sobre cada um para tomar sua decisão.</p>
+<h4 id="dinâmico">Dinâmico</h4>
+<ul>
+<li>
+<p>Spectrwm - Configurado em uma língua feita para ser simples de entender.</p>
+<p><img src="https://raw.githubusercontent.com/wiki/conformal/spectrwm/Scrotwm1.png" alt="Spectrwm"></p>
+</li>
+<li>
+<p>AwesomeWM - Configurado em lua  <img src="https://awesomewm.org/images/screen.png" alt="Awesome"></p>
+</li>
+<li>
+<p>Qtile - Configurado em python  <img src="https://cdn.discordapp.com/attachments/776201664902201346/776467111794442270/demo.png" alt="Qtile"></p>
+</li>
+</ul>
+<h4 id="manual">Manual</h4>
+<ul>
+<li>
+<p>i3 WM - Configurado em uma língua feita para ser simples de entender.</p>
+<p><img src="https://i3wm.org/screenshots/i3-9.png" alt="I3"></p>
+</li>
+<li>
+<p>Sway - Configurado em uma língua feita para ser simples de entender.</p>
+<p><img src="https://i0.wp.com/itsfoss.com/wp-content/uploads/2019/03/sway-wm2.jpg?ssl=1" alt="Sway"></p>
+</li>
+<li>
+<p>BSPWM - Pode ser configurado em qualquer linguagem de programacao.  <img src="https://cdn.discordapp.com/attachments/735050462717542411/776466000639819804/unknown.png" alt="BSPWM"></p>
+</li>
+</ul>
+<h2 id="layouts-mais-comuns">Layouts mais comuns:</h2>
+<h4 id="master-and-stack--layout01httpscdndiscordappcomattachments776201664902201346776473438080598067unknownpng">Master and Stack  <img src="https://cdn.discordapp.com/attachments/776201664902201346/776473438080598067/unknown.png" alt="Layout01"></h4>
+<h4 id="espiral">Espiral</h4>
+<p><img src="https://cdn.discordapp.com/attachments/776201664902201346/776474749374038056/unknown.png" alt="Layout02"></p>
+<h4 id="grid">Grid</h4>
+<p><img src="https://cdn.discordapp.com/attachments/776201664902201346/776475160550178816/unknown.png" alt="Layout03"></p>
+<h4 id="tres-colunas">Tres Colunas</h4>
+<p><img src="https://cdn.discordapp.com/attachments/776201664902201346/776472795373895690/unknown.png" alt="Layout04"></p>
+<p>Sabendo o ponto de partida eu recomendo que você escolha um ponto de chegada, os tiling window managers que eu recomendo como ponto de chegada são esses abaixo, pesquise sobre cada um, caso os pontos de partida e chegada sejam os mesmos eu recomendo o teste de alguns outros pontos de chegada.</p>
+<h4 id="dinâmico-1">Dinâmico</h4>
+<ul>
+<li>Xmonad - configurado em haskell (Muito Difícil)  <img src="https://cdn.discordapp.com/attachments/776201664902201346/776473438080598067/unknown.png" alt="XMONAD"></li>
+<li>DWM - configurado em C (Difícil)  <img src="https://blog.zerial.org/wp-content/uploads/2009/08/dwm.png" alt="DWM">  - QTILE - configurado em Python  <img src="https://cdn.discordapp.com/attachments/776201664902201346/776467111794442270/demo.png" alt="Qtile"></li>
+</ul>
+<h4 id="manual-1">Manual</h4>
+<ul>
+<li>Herbstluftwm - configurado em qualquer linguagem de programação  <img src="https://www.tecmint.com/wp-content/uploads/2019/04/herbstluftwm-manual-tiling-window-manager-for-linux.png" alt="Herbstluftwm"></li>
+<li>BSPWM - configurado em qualquer linguagem de programação  <img src="https://cdn.discordapp.com/attachments/735050462717542411/776466000639819804/unknown.png" alt="BSPWM"></li>
+</ul>
+<p>Com o ponto de partida e chegada definidos eu recomendo o teste de alguns TWMs de chegada para depois testar alguns de chegada para no depois chegar no ponto de cheagada, especialmente para quem for usar Xmonad ou DWM.</p>
+<h2 id="configure-seu-twm">Configure seu TWM!</h2>
+<p><img src="https://cdn.discordapp.com/attachments/776201664902201346/776475717038506014/unknown.png" alt="XMONAD CONFIG"></p>
+<p>Depois de baixar o TWM você deve configura-lo, a minha recomendação é primeiro substituir os comentários do arquivo de configuração, depois disso troque as teclas de atalho, depois adicione coisas que faltam no seu TWM e por fim trabalhe para deixar seu TWM esteticamente agradável.</p>
+<p><strong>AVISO! - Guarde seus arquivos de configuração em algum lugar fora do seu pc, eu recomendo o uso do git juntamente com o Gitlab para tal finalidade.</strong></p>
+<h2 id="fazendo-e-refazendo">Fazendo e Refazendo</h2>
+<p>Depois de configurar seu TWM por completo troque de TWM, isso pois depois de configurar você já ganhou experiência com aquele TWM continuar com ele so ira fazer demorar mais para o ponto de chegada.</p>
+<h2 id="recomendações-de-material">Recomendações de material:</h2>
+<p>[<a href="https://www.blogger.com/blog/post/edit/3392280393749306382/1179405901031089791#">Arch Wiki</a>] [<a href="https://www.blogger.com/blog/post/edit/3392280393749306382/1179405901031089791#">Video explicativo</a>] [<a href="https://www.blogger.com/blog/post/edit/3392280393749306382/1179405901031089791#">Distrotube</a>] [<a href="https://www.blogger.com/blog/post/edit/3392280393749306382/1179405901031089791#">Brodie Robertson</a>] [<a href="https://www.blogger.com/blog/post/edit/3392280393749306382/1179405901031089791#">Github do Arco Linux</a>]</p>
+</article>
+    </section>
+
+    
+
+    
+
+    
+    <article class="ui segment" data-html2canvas-ignore>
+      <div id="vcomments"></div>
+    </article>
+
+    <script>
+    var langName = 'pt-br',
+    langMode = {	
+        "nick": "UserName",
+        "mail": "E-Mail",
+        "link": "Website(http://)",
+        "nickFail":"Seu nome de usuário não pode ser tão pequeno.",
+        "mailFail":"Por favor confirme seu endereço de e-mail.",
+        "sofa": "Nenhum comentário até agora.",
+        "submit": "Enviar",
+        "reply": "Responder",
+        "cancelReply": "Cancelar resposta",
+        "comments": "Comentários",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "continue": "Continuar",
+        "more": "Carregar mais...",
+        "preview": "Pré-visualização",
+        "emoji": "Emoji",
+        "expand": "Ver mais....",
+        "seconds": "Segundos atras",
+        "minutes": "Minutos atras",
+        "hours": "horas atras",
+        "days": "dias atras",
+        "now": "agora mesmo",
+        "uploading":"Enviando ...",
+        "uploadDone":"Envio concluido!",
+        "busy":"Submit is busy, please wait...",
+        "code-98":"Valine initialization failed, please check your version of av-min.js.",
+        "code-99": "Valine initialization failed, Please check the `el` element in the init method.",
+        "code-100": "Valine initialization failed, Please check your appId and appKey.",
+        "code-140":"The total number of API calls today has exceeded the development version limit.",
+        "code-401": "Unauthorized operation, Please check your appId and appKey.",
+        "code-403": "Access denied by API domain white list, Please check your security domain."
+    };
+
+      new Valine({
+        el: '#vcomments',
+        appId: "zAnoymqxkWMb18ngBFtE0O5o-MdYXbMMI",
+        appKey: "wQNzWKoEwT7pkhR4s8f6r3Vz",
+        lang: langName,
+        langMode: langMode
+      })
+    </script>
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+              
+              <p>© 2021 OpenTech Life</p>
+              
+
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  <div class="ui small circular image">
+    
+    <img src="https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/128/22272-penguin-icon.png" alt="avatar" />
+    
+  </div>
+
+  <div class="content">
+    <h1 class="ui medium header">OpenTech Life<div class="sub header">"O importante é não parar de questionar." - Albert Einstein</div>
+    </h1>
+
+    <article class="ui horizontal list">
+      
+      <a class="item" href="/posts">
+        <i class="archive icon" title="Arquivos"></i>
+      </a>
+      
+      <a class="item" href="/categories">
+        <i class="th list icon" title="Todas as categorias"></i>
+      </a>
+      <a class="item" href="/tags">
+        <i class="tags icon" title="Todas as tags"></i>
+      </a>
+    </article>
+
+    
+    <article class="dream-tags">
+    
+      <a class="ui label" href="/tags/android/" title="Android">
+        Android
+      </a>
+    
+      <a class="ui label" href="/tags/arch-based/" title="Arch Based">
+        Arch Based
+      </a>
+    
+      <a class="ui label" href="/tags/batocera/" title="Batocera">
+        Batocera
+      </a>
+    
+      <a class="ui label" href="/tags/cyberseguran%C3%A7a/" title="Cybersegurança">
+        Cybersegurança
+      </a>
+    
+      <a class="ui label" href="/tags/filesystem/" title="FileSystem">
+        FileSystem
+      </a>
+    
+      <a class="ui label" href="/tags/flatpak/" title="Flatpak,">
+        Flatpak,
+      </a>
+    
+      <a class="ui label" href="/tags/geral/" title="Geral">
+        Geral
+      </a>
+    
+      <a class="ui label" href="/tags/iniciantes/" title="Iniciantes">
+        Iniciantes
+      </a>
+    
+      <a class="ui label" href="/tags/intermedi%C3%A1rio/" title="Intermediário">
+        Intermediário
+      </a>
+    
+      <a class="ui label" href="/tags/jogos/" title="Jogos">
+        Jogos
+      </a>
+    
+      <a class="ui label" href="/tags/lan%C3%A7amento/" title="Lançamento">
+        Lançamento
+      </a>
+    
+      <a class="ui label" href="/tags/linux/" title="Linux">
+        Linux
+      </a>
+    
+      <a class="ui label" href="/tags/linux-geral/" title="Linux Geral">
+        Linux Geral
+      </a>
+    
+      <a class="ui label" href="/tags/lista/" title="Lista">
+        Lista
+      </a>
+    
+      <a class="ui label" href="/tags/microsoft/" title="Microsoft">
+        Microsoft
+      </a>
+    
+      <a class="ui label" href="/tags/opentech/" title="OpenTech">
+        OpenTech
+      </a>
+    
+      <a class="ui label" href="/tags/recovery/" title="Recovery">
+        Recovery
+      </a>
+    
+      <a class="ui label" href="/tags/redes/" title="Redes">
+        Redes
+      </a>
+    
+      <a class="ui label" href="/tags/tag1/" title="Tag1">
+        Tag1
+      </a>
+    
+      <a class="ui label" href="/tags/tag2/" title="Tag2">
+        Tag2
+      </a>
+    
+      <a class="ui label" href="/tags/ubuntu/" title="Ubuntu">
+        Ubuntu
+      </a>
+    
+      <a class="ui label" href="/tags/wayland/" title="Wayland">
+        Wayland
+      </a>
+    
+      <a class="ui label" href="/tags/windows/" title="Windows">
+        Windows
+      </a>
+    
+    </article>
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">Links de redes sociais</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+  <div class="item">
+    <a href="/index.xml">
+      <i class="large rss square icon" title="RSS"></i>
+    </a>
+  </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <div class="item">
+    <a href="https://github.com/OpenTech-Life" target="_blank">
+      <i class="large github icon" title="GitHub"></i>
+    </a>
+  </div>
+  
+
+  
+
+  
+</nav>
+
+    </article>
+  </div>
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </div>
+
+  
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+  window.defaultDark =  true 
+  window.backgroundDark = "#2e3440"
+  window.backgroundImageDark =  null 
+  window.darkNav =  true 
+  window.hasTwitterEmbed =  null 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+
+    
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/post.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js"></script>
+
+
+
+<script>
+  hljs.initHighlightingOnLoad()
+  setHighlightTheme()
+
+  function setHighlightTheme() {
+    var isDark = localStore.getItem('hugo-theme-dream-is-dark')
+    isDark = isDark ? isDark : window.defaultDark ? 'y' : isDark
+
+    var lightTheme = "gruvbox-light"
+    var darkTheme = "gruvbox-dark"
+    var theme = isDark === 'y' ? darkTheme : lightTheme
+
+    $('link[data-highlight]').attr('href', 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/' + theme + '.min.css')
+    $('pre').css('background', isDark === 'y' ? '#333' : '')
+  }
+</script>
+
+
+
+
+
+    
+    <div class="ui inverted segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Pesquisar" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/opentechlife.tk\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+
+    
+  </body>
+</html>

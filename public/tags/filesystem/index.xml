@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FileSystem on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/filesystem/</link>
+    <description>Recent content in FileSystem on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 22 Jan 2021 19:01:18 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como instalar qualquer distro Linux sem pendrive</title>
+      <link>https://opentechlife.tk/posts/linux-sem-pendrive/</link>
+      <pubDate>Fri, 22 Jan 2021 19:01:18 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/linux-sem-pendrive/</guid>
+      <description>Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows. Requisitos:
+ Windows 8 ou mais novo(O Windows 7 não é suportado, já que não trabalha com Uefi). UEFI ativado.   É meio triste ser necessário o suporte a UEFI, já que não funcionará em máquinas antigas. Como já dito antes, este tutorial foca em máquinas com Windows.</description>
+    </item>
+    
+    <item>
+      <title>Como usar o &#39;fsck&#39; para Reparar Erros do Sistema de Arquivos no Linux</title>
+      <link>https://opentechlife.tk/posts/fsck/</link>
+      <pubDate>Fri, 11 Dec 2020 08:10:58 +0000</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/fsck/</guid>
+      <description>O OpenTech Life voltou com tudo para trazer conteúdo de qualidade para vocês! Já que o nosso objetivo é trazer conteúdo em Português, decidimos traduzir alguns artigos que não estão na devida língua. O de hoje vem do blog TecMint.
+Vamos falar sobre Filesystems e sobre o fsck. Os Sistemas de Arquivos são responsáveis por organizar como os dados são armazenados e recuperados. De uma forma ou de outra, com o tempo, o sistema de arquivos pode ser corrompido e certas partes dele ficam inacessíveis.</description>
+    </item>
+    
+  </channel>
+</rss>

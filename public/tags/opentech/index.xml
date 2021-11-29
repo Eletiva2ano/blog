@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenTech on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/opentech/</link>
+    <description>Recent content in OpenTech on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 19 Jun 2021 21:28:00 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/opentech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrcpy, Espelhe Seu Celular!</title>
+      <link>https://opentechlife.tk/posts/scrcpy-espelhe-a-tela/</link>
+      <pubDate>Sat, 19 Jun 2021 21:28:00 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/scrcpy-espelhe-a-tela/</guid>
+      <description>Espelhar a tela do seu celular pode ser um dos maiores desafios quando você quer fazer gameplays, principalmente quando estamos falando de linux, já que pra Windows possuem algumas ferramentas populares. Apesar de tudo, hoje você vai aprender a usar o scrcpy! Uma ferramenta simples que permite você espelhar a tela do seu celular Android sem a necessidade de baixar nenhum app no dispositivo móvel!
+Como Instalar o SCRCPY O scrcpy está disponivel para as mais variáveis plataformas, possuindo até uma versão em snap.</description>
+    </item>
+    
+  </channel>
+</rss>

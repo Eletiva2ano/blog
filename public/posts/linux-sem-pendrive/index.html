@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Como instalar qualquer distro Linux sem pendrive | OpenTech Life</title>
+
+    
+<link href="https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/128/22272-penguin-icon.png" rel="shortcut icon" type="image/x-icon" />
+
+
+
+
+<meta name="author" content="Redson" />
+<meta name="description" content="Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows. Requisitos:
+ Windows 8 ou mais novo(O Windows 7 não é suportado, já que não trabalha com Uefi). UEFI ativado.   É meio triste ser necessário o suporte a UEFI, já que não funcionará em máquinas antigas. Como já dito antes, este tutorial foca em máquinas com Windows." />
+
+
+
+<meta name="generator" content="Hugo 0.89.4" />
+
+<link rel="canonical" href="https://opentechlife.tk/posts/linux-sem-pendrive/" />
+
+
+<meta property="og:title" content="Como instalar qualquer distro Linux sem pendrive" />
+<meta property="og:description" content="Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows. Requisitos:
+ Windows 8 ou mais novo(O Windows 7 não é suportado, já que não trabalha com Uefi). UEFI ativado.   É meio triste ser necessário o suporte a UEFI, já que não funcionará em máquinas antigas. Como já dito antes, este tutorial foca em máquinas com Windows." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://opentechlife.tk/posts/linux-sem-pendrive/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-01-22T19:01:18-03:00" />
+<meta property="article:modified_time" content="2021-01-22T19:01:18-03:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Como instalar qualquer distro Linux sem pendrive"/>
+<meta name="twitter:description" content="Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows. Requisitos:
+ Windows 8 ou mais novo(O Windows 7 não é suportado, já que não trabalha com Uefi). UEFI ativado.   É meio triste ser necessário o suporte a UEFI, já que não funcionará em máquinas antigas. Como já dito antes, este tutorial foca em máquinas com Windows."/>
+
+
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/icomoon.css" />
+<link rel="stylesheet" href="/css/OverlayScrollbars.min.css" />
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  a:not(.ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+
+  
+  .inverted a:not(.ui.button),
+  .inverted a:not(.ui.button):hover {
+     color: #2f589c !important;
+  }
+  
+
+  
+
+  
+  body.dark {
+    
+    background-color: #2e3440;
+    
+
+    
+  }
+  
+</style>
+
+
+    
+
+
+
+<link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/gruvbox-light.min.css" />
+
+
+
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+
+
+
+    
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Girar!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Página inicial" onclick="window.location.href = 'https:\/\/opentechlife.tk\/'"></i>
+  </div>
+  
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+  
+  
+  <div class="item">
+    <i class="large link search icon" onclick="toggleSearch()"></i>
+  </div>
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed grid dream-grid dream-grid-single">
+  <aside class="sixteen wide mobile sixteen wide tablet four wide computer column dream-single-aside">
+    
+    
+    <div class="ui segment toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#hoje-irei-ensiná-los-a-instalar-qualquer-distribuição-linux-sem-usar-nenhum-pendrive-por-enquanto-este-artigo-só-se-aplica-a-usuários-do-windows">Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows.</a></li>
+      </ul>
+    </li>
+    <li><a href="#baixando-a-iso">Baixando a ISO</a></li>
+    <li><a href="#iso-baixada-e-agora">ISO baixada, e agora?</a></li>
+    <li><a href="#particionando-o-hd">Particionando o HD</a></li>
+    <li><a href="#fazendo-a-mágica">Fazendo a &ldquo;mágica&rdquo;:</a></li>
+    <li><a href="#criando-a-entrada-de-boot">Criando a entrada de BOOT</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#fim">Fim!</a></li>
+  </ul>
+</nav>
+    </div>
+    
+    <div class="ui segment actions">
+      <button
+        class="ui circular icon button save-as-image"
+        title="Salvar como imagem"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i>
+      </button>
+
+      <a href="https://twitter.com/intent/tweet?text=Como%20instalar%20qualquer%20distro%20Linux%20sem%20pendrive&url=https%3a%2f%2fopentechlife.tk%2fposts%2flinux-sem-pendrive%2f" class="ui circular twitter icon button">
+  <i class="twitter icon"></i>
+</a>
+<a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fopentechlife.tk%2fposts%2flinux-sem-pendrive%2f" class="ui circular facebook icon button">
+  <i class="facebook icon"></i>
+</a>
+
+    </div>
+  </aside>
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    
+    <div class="ui top attached segment cover">
+      <div class="cover-img" style="background-image: url(https://lh3.googleusercontent.com/-tYnpYyfvpcw/YAsNU_gS_-I/AAAAAAAAAAw/-IQcEFUEKioMekt591HeFhR0WHFFOBTxgCLcBGAsYHQ/Como%2Binstalar%2Bdistribui%25C3%25A7%25C3%25B5es%2BLinux%2Bsem%2Bpendrive%2B%25281%2529.png);"></div>
+    </div>
+    
+    <section class="ui attached segment">
+      <header>
+        <h1 class="ui large header">Como instalar qualquer distro Linux sem pendrive<div class="sub header">
+            @
+            
+              
+                Redson
+              
+            
+
+            | Sexta, 22 de Janeiro de 2021
+              
+
+            | 4 minutos de leitura
+
+            | Atualizado
+              Sexta, 22 de Janeiro de 2021
+              
+          </div>
+        </h1>
+      </header>
+
+      <article class="main"><p><img src="https://lh3.googleusercontent.com/-tYnpYyfvpcw/YAsNU_gS_-I/AAAAAAAAAAw/-IQcEFUEKioMekt591HeFhR0WHFFOBTxgCLcBGAsYHQ/Como%2Binstalar%2Bdistribui%25C3%25A7%25C3%25B5es%2BLinux%2Bsem%2Bpendrive%2B%25281%2529.png" alt="Capa"></p>
+<h3 id="hoje-irei-ensiná-los-a-instalar-qualquer-distribuição-linux-sem-usar-nenhum-pendrive-por-enquanto-este-artigo-só-se-aplica-a-usuários-do-windows">Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows.</h3>
+<p>Requisitos:</p>
+<ul>
+<li>Windows 8 ou mais novo(O Windows 7 não é suportado, já que não trabalha com Uefi).</li>
+<li>UEFI ativado.</li>
+</ul>
+<hr>
+<p>É meio triste ser necessário o suporte a UEFI, já que não funcionará em máquinas antigas. Como já dito antes, este tutorial foca em máquinas com Windows. Em breve irei descobrir uma forma de fazer isso a partir do Linux, muito provavelmente pelo grub. Mas o show não pode parar, então vamos:</p>
+<h2 id="baixando-a-iso">Baixando a ISO</h2>
+<p>Não é nenhum segredo que para instalar um sistema você precisa de uma ISO, no meu caso, eu sempre instalo o Arch Linux, e sempre dá certo, recomendo fortemente que você baixe atráves do Torrent, sempre que possivel já que evita que a ISO venha corrompida.</p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802171441058676776/unknown.png" alt="ISO Baixada"></p>
+<h2 id="iso-baixada-e-agora">ISO baixada, e agora?</h2>
+<p>Agora você deve baixar e instalar o <a href="https://www.easyuefi.com/downloads/EasyUEFI_Trial.exe">EasyUefi</a>. A instalação é como a de qualquer outro programa, é só ir apertando em next. Quando a instalação finalizar, muito provavelmente, a seguinte página será aberta, mas você pode fechá-la sem problemas:
+<img src="https://media.discordapp.net/attachments/776201664902201346/802172600435343429/unknown.png?width=1017&amp;height=480" alt="Pagina que ira ser aberta"></p>
+<h2 id="particionando-o-hd">Particionando o HD</h2>
+<p>Vá até o programa de particionamento do Windows:
+<img src="https://media.discordapp.net/attachments/776201664902201346/802173256013971466/unknown.png" alt="Menu iniciar apontando o Gerenciador de disco do Ruindows"></p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802174416653647902/unknown.png" alt="Passos a serem seguidos"></p>
+<p>Vá até o Disco Local C:, dê um clique com o botão direito, e dirija-se a Diminuir volume, deve abrir uma janela como essa:</p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802174835027476500/unknown.png" alt="Janela &ldquo;Diminuir disco(como se o meu disco ja nao fosse pequeno)""></p>
+<p>Como a ISO do Arch pesa 650MB atualmente, vou criar uma partição de 856MB, que julgo ser mais que necessário. É importante você adaptar isto ao sistema que irá instalar. Também é importante que você formate a partição com o formato de arquivos FAT32, independente do tamanho dela.</p>
+<h2 id="fazendo-a-mágica">Fazendo a &ldquo;mágica&rdquo;:</h2>
+<p>Com a partição criada, você deve extrair a ISO da sua distribuição Linux e por dentro dela. Para isso, é interessante usar programas como o <a href="https://www.7-zip.org/download.html">7-Zip</a>, ou o queridinho pela comunidade Windows, o <a href="https://www.win-rar.com/">Winrar</a>.
+Você deve fechar o seu gerenciador de Torrent, pois ele o impedirá de mover a ISO de lugar. E com ele já fechado, você deve colocar a ISO em uma pasta sem nada dentro, e extrair:</p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802177004103008296/unknown.png" alt="Extrair aqui"></p>
+<p>Com a ISO já extraída, você pode apagar ela e deixar somente as pastas, Cuidado para não deletar algum arquivo do sistema. Por fim, é necessário enviar todos os arquivos para a partição recém-criada.</p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802177370525007872/unknown.png" alt="Pasta da ISO"></p>
+<h2 id="criando-a-entrada-de-boot">Criando a entrada de BOOT</h2>
+<p>Agora, abra o EasyUEFI, com ele aberto, você terá uma homepage nada receptiva, mas você deve clicar em <strong>Manage UEFI Boot Option.</strong></p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802178664443674704/unknown.png?width=640&amp;height=480" alt="EasyUEFI"></p>
+<p>É importante que você não apague nada aqui, pois você pode corromper o Boot do(s) seu(s) sistema(s), ou ter que regravar sua BIOS. Para continuar, clique aqui:</p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802179195718336532/unknown.png" alt="Create a new Entry(+ com um calendario)"></p>
+<p>Agora clique na partição que você criou, e no topo da tela em type, escolha Linux or Other OS. Em descrição coloque o sistema. Por exemplo: Mint. É importante que não contenha caracteres especiais, como aspas, espaços e ç (normalmente a do final. Você pode saber pelo tamanho, ou pela Label.)
+<img src="https://media.discordapp.net/attachments/776201664902201346/802180510964908032/unknown.png" alt="Como deve ser"></p>
+<p>Agora vá em file path, e clique em browse, o programa já irá apontar a partição que você selecionou. Expanda as pastas com o + do lado esquerdo delas.</p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802180948568440842/unknown.png" alt="File path"></p>
+<p>Sua ISO precisa ter esta pasta EFI, e você deve encontrar o arquivo BOOT.EFI; não pode ser shell.EFI, No meu caso, é BOOTx64.EFI, clique no arquivo e depois vá no ok, que está no canto inferior direito da janela. Feito isso, você já pode reiniciar o seu computador.</p>
+<h6 id="para-descobrir-qual-deve-ser-a-label-que-você-precisa-colocar-na-partição-só-acontece-em-alguns-casos-se-isso-não-te-acontecer-pode-pular-este-passo-e-continuar-a-instalação-depois-deste-processo-terá-a-entrada-do-instalador-do-seu-sistema-juntamente-com-a-entrada-do-windowsdesculpa-pela-qualidade-da-imagem-minha-câmera-não-é-boa-d">(Para descobrir qual deve ser a label que você precisa colocar na partição (só acontece em alguns casos, se isso não te acontecer, pode pular este passo e continuar a instalação). Depois deste processo, terá a entrada do instalador do seu sistema juntamente com a entrada do Windows(desculpa pela qualidade da imagem, minha câmera não é boa. ;D))</h6>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802223770861436969/IMG_20210122_112549.jpg?width=480&amp;height=480" alt="Boot Manager"></p>
+<p>Caso ocorra de dar uma tela preta com algo do gênero, você terá que rebootar no Windows, e mudar o nome da partição para o especificado.</p>
+<p><img src="https://media.discordapp.net/attachments/776201664902201346/802223774236803162/IMG_20210122_112705.jpg?width=640&amp;height=480" alt="Sistema tentando montar-se pela label errada"></p>
+<p>Basicamente, o instalador tentou montar o sistema pelo nome da partição e não conseguiu. Você poderá saber qual nome deve colocar caso ocorra este erro, pois estará escrito assim: waiting 30 seconds for device /dev/disk/by-label/ARCH_202101. Este nome em negrito vai mudar, dependendo da ISO e do sistema que irá ser instalado.</p>
+<h2 id="fim">Fim!</h2>
+<p><strong>Cuidado para não apagar a partição durante a instalação!</strong></p>
+<p>Você poderá apagar depois, a partir do gparted ou outro utilitário de disco. Desfrute do seu sistema, e se seu disco rígido for mecânico, lembre-se de não fazer isso muitas vezes xD. Não esqueça de deixar seu feedback nos comentários, e uma sugestão para o próximo artigo. Se quiser conversar, pode nos encontrar em nosso <a href="https://discord.gg/rYzquvV">servidor do Discord</a>. Estou no aguardo 😉.</p>
+</article>
+    </section>
+
+    
+
+    
+
+    
+    <article class="ui segment" data-html2canvas-ignore>
+      <div id="vcomments"></div>
+    </article>
+
+    <script>
+    var langName = 'pt-br',
+    langMode = {	
+        "nick": "UserName",
+        "mail": "E-Mail",
+        "link": "Website(http://)",
+        "nickFail":"Seu nome de usuário não pode ser tão pequeno.",
+        "mailFail":"Por favor confirme seu endereço de e-mail.",
+        "sofa": "Nenhum comentário até agora.",
+        "submit": "Enviar",
+        "reply": "Responder",
+        "cancelReply": "Cancelar resposta",
+        "comments": "Comentários",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "continue": "Continuar",
+        "more": "Carregar mais...",
+        "preview": "Pré-visualização",
+        "emoji": "Emoji",
+        "expand": "Ver mais....",
+        "seconds": "Segundos atras",
+        "minutes": "Minutos atras",
+        "hours": "horas atras",
+        "days": "dias atras",
+        "now": "agora mesmo",
+        "uploading":"Enviando ...",
+        "uploadDone":"Envio concluido!",
+        "busy":"Submit is busy, please wait...",
+        "code-98":"Valine initialization failed, please check your version of av-min.js.",
+        "code-99": "Valine initialization failed, Please check the `el` element in the init method.",
+        "code-100": "Valine initialization failed, Please check your appId and appKey.",
+        "code-140":"The total number of API calls today has exceeded the development version limit.",
+        "code-401": "Unauthorized operation, Please check your appId and appKey.",
+        "code-403": "Access denied by API domain white list, Please check your security domain."
+    };
+
+      new Valine({
+        el: '#vcomments',
+        appId: "zAnoymqxkWMb18ngBFtE0O5o-MdYXbMMI",
+        appKey: "wQNzWKoEwT7pkhR4s8f6r3Vz",
+        lang: langName,
+        langMode: langMode
+      })
+    </script>
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+              
+              <p>© 2021 OpenTech Life</p>
+              
+
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  <div class="ui small circular image">
+    
+    <img src="https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/128/22272-penguin-icon.png" alt="avatar" />
+    
+  </div>
+
+  <div class="content">
+    <h1 class="ui medium header">OpenTech Life<div class="sub header">"O importante é não parar de questionar." - Albert Einstein</div>
+    </h1>
+
+    <article class="ui horizontal list">
+      
+      <a class="item" href="/posts">
+        <i class="archive icon" title="Arquivos"></i>
+      </a>
+      
+      <a class="item" href="/categories">
+        <i class="th list icon" title="Todas as categorias"></i>
+      </a>
+      <a class="item" href="/tags">
+        <i class="tags icon" title="Todas as tags"></i>
+      </a>
+    </article>
+
+    
+    <article class="dream-tags">
+    
+      <a class="ui label" href="/tags/android/" title="Android">
+        Android
+      </a>
+    
+      <a class="ui label" href="/tags/arch-based/" title="Arch Based">
+        Arch Based
+      </a>
+    
+      <a class="ui label" href="/tags/batocera/" title="Batocera">
+        Batocera
+      </a>
+    
+      <a class="ui label" href="/tags/cyberseguran%C3%A7a/" title="Cybersegurança">
+        Cybersegurança
+      </a>
+    
+      <a class="ui label" href="/tags/filesystem/" title="FileSystem">
+        FileSystem
+      </a>
+    
+      <a class="ui label" href="/tags/flatpak/" title="Flatpak,">
+        Flatpak,
+      </a>
+    
+      <a class="ui label" href="/tags/geral/" title="Geral">
+        Geral
+      </a>
+    
+      <a class="ui label" href="/tags/iniciantes/" title="Iniciantes">
+        Iniciantes
+      </a>
+    
+      <a class="ui label" href="/tags/intermedi%C3%A1rio/" title="Intermediário">
+        Intermediário
+      </a>
+    
+      <a class="ui label" href="/tags/jogos/" title="Jogos">
+        Jogos
+      </a>
+    
+      <a class="ui label" href="/tags/lan%C3%A7amento/" title="Lançamento">
+        Lançamento
+      </a>
+    
+      <a class="ui label" href="/tags/linux/" title="Linux">
+        Linux
+      </a>
+    
+      <a class="ui label" href="/tags/linux-geral/" title="Linux Geral">
+        Linux Geral
+      </a>
+    
+      <a class="ui label" href="/tags/lista/" title="Lista">
+        Lista
+      </a>
+    
+      <a class="ui label" href="/tags/microsoft/" title="Microsoft">
+        Microsoft
+      </a>
+    
+      <a class="ui label" href="/tags/opentech/" title="OpenTech">
+        OpenTech
+      </a>
+    
+      <a class="ui label" href="/tags/recovery/" title="Recovery">
+        Recovery
+      </a>
+    
+      <a class="ui label" href="/tags/redes/" title="Redes">
+        Redes
+      </a>
+    
+      <a class="ui label" href="/tags/tag1/" title="Tag1">
+        Tag1
+      </a>
+    
+      <a class="ui label" href="/tags/tag2/" title="Tag2">
+        Tag2
+      </a>
+    
+      <a class="ui label" href="/tags/ubuntu/" title="Ubuntu">
+        Ubuntu
+      </a>
+    
+      <a class="ui label" href="/tags/wayland/" title="Wayland">
+        Wayland
+      </a>
+    
+      <a class="ui label" href="/tags/windows/" title="Windows">
+        Windows
+      </a>
+    
+    </article>
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">Links de redes sociais</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+  <div class="item">
+    <a href="/index.xml">
+      <i class="large rss square icon" title="RSS"></i>
+    </a>
+  </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <div class="item">
+    <a href="https://github.com/OpenTech-Life" target="_blank">
+      <i class="large github icon" title="GitHub"></i>
+    </a>
+  </div>
+  
+
+  
+
+  
+</nav>
+
+    </article>
+  </div>
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </div>
+
+  
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+  window.defaultDark =  true 
+  window.backgroundDark = "#2e3440"
+  window.backgroundImageDark =  null 
+  window.darkNav =  true 
+  window.hasTwitterEmbed =  null 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+
+    
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/post.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js"></script>
+
+
+
+<script>
+  hljs.initHighlightingOnLoad()
+  setHighlightTheme()
+
+  function setHighlightTheme() {
+    var isDark = localStore.getItem('hugo-theme-dream-is-dark')
+    isDark = isDark ? isDark : window.defaultDark ? 'y' : isDark
+
+    var lightTheme = "gruvbox-light"
+    var darkTheme = "gruvbox-dark"
+    var theme = isDark === 'y' ? darkTheme : lightTheme
+
+    $('link[data-highlight]').attr('href', 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/' + theme + '.min.css')
+    $('pre').css('background', isDark === 'y' ? '#333' : '')
+  }
+</script>
+
+
+
+
+
+    
+    <div class="ui inverted segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Pesquisar" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/opentechlife.tk\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+
+    
+  </body>
+</html>

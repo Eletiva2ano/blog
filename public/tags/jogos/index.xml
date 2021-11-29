@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jogos on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/jogos/</link>
+    <description>Recent content in Jogos on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 13 Jul 2021 19:01:32 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/jogos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como Instalar Roblox No Linux</title>
+      <link>https://opentechlife.tk/posts/como-instalar-roblox-no-linux/</link>
+      <pubDate>Tue, 13 Jul 2021 19:01:32 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-instalar-roblox-no-linux/</guid>
+      <description>Salve salve galera! Venho aqui trazendo uma grande novidade que deve tirar da boca(ou dos dedos) de algumas pessoas que só não vai pro Linux porque não roda Roblox. Tudo começou com um patch do Wine que corrigia um bug com o próprio Roblox, &amp;ldquo;This server has shut down.&amp;rdquo; Então juntaram esse patch com o Grapejuice, que é uma ferramenta pronta e feita pra isso, porem que até então só rodava o Roblox Studio por conta desse bug.</description>
+    </item>
+    
+  </channel>
+</rss>

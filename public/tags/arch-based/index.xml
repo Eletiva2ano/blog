@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch Based on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/arch-based/</link>
+    <description>Recent content in Arch Based on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 21 Jan 2021 15:17:26 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/arch-based/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como Instalar o Yay no Arch e derivados</title>
+      <link>https://opentechlife.tk/posts/como-instalar-o-yay/</link>
+      <pubDate>Thu, 21 Jan 2021 15:17:26 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-instalar-o-yay/</guid>
+      <description>Saudações, hoje iremos aprender um pouco sobre o Yay e sua instalação. Yay? O que é? O Yay nada mais é que um AUR Helper (Aur Helper’s são programas que facilitam a instalação de pacotes de repositório de usuários, sem necessidade de compilar os pacotes a partir do código fonte).
+Instalação Para executar a instalação do yay, você irá precisar dos pacotes git, go e base-devel, sendo eles instalados a partir do seguinte comando:</description>
+    </item>
+    
+  </channel>
+</rss>

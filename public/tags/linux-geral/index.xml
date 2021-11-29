@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Geral on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/linux-geral/</link>
+    <description>Recent content in Linux Geral on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 01 Sep 2021 07:48:01 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/linux-geral/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 Distros Linux Minimalistas!</title>
+      <link>https://opentechlife.tk/posts/7-distros-minimalistas/</link>
+      <pubDate>Wed, 01 Sep 2021 07:48:01 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/7-distros-minimalistas/</guid>
+      <description>Fonte da capa: Reddit
+Opa! E aqui estamos nós novamente, mas dessa vez com uma lista de distribuições Linux minimalistas! Primeiramente, preciso avisar que pra minimalismo é preciso adaptação. Algumas das distros aqui são consideradas &amp;ldquo;difíceis&amp;rdquo; ou até mesmo de nível avançado&amp;hellip; Mas não se precupe com isso, experiência só se adquire testando!
+Vamos começar nossa lista de forma decrescente! Do 7 ao 1. Em 1, 2, 3, segue abaixo!</description>
+    </item>
+    
+    <item>
+      <title>Como Instalar Roblox No Linux</title>
+      <link>https://opentechlife.tk/posts/como-instalar-roblox-no-linux/</link>
+      <pubDate>Tue, 13 Jul 2021 19:01:32 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-instalar-roblox-no-linux/</guid>
+      <description>Salve salve galera! Venho aqui trazendo uma grande novidade que deve tirar da boca(ou dos dedos) de algumas pessoas que só não vai pro Linux porque não roda Roblox. Tudo começou com um patch do Wine que corrigia um bug com o próprio Roblox, &amp;ldquo;This server has shut down.&amp;rdquo; Então juntaram esse patch com o Grapejuice, que é uma ferramenta pronta e feita pra isso, porem que até então só rodava o Roblox Studio por conta desse bug.</description>
+    </item>
+    
+    <item>
+      <title>Tudo que você precisa saber sobre Swappiness!</title>
+      <link>https://opentechlife.tk/posts/swappiness-guide/</link>
+      <pubDate>Wed, 23 Jun 2021 21:39:14 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/swappiness-guide/</guid>
+      <description>Salve comunidade pinguim! Faz um belo tempo que não dou as caras por aqui, né? Pois é, mas hoje estou de volta para falar de tudo que você deve saber sobre Swappiness!
+ A primeira coisa que queria abordar é como o swappiness funciona:
+ Existem alguns aspectos matemáticos envolvidos na swap que devem ser considerados ao alterar suas configurações. O valor do parâmetro definido como “60” significa que seu kernel irá usar a swap quando a RAM atingir 40% da capacidade.</description>
+    </item>
+    
+    <item>
+      <title>Como instalar e configurar o oksh no Linux</title>
+      <link>https://opentechlife.tk/posts/como-instalar-configurar-oksh/</link>
+      <pubDate>Sat, 03 Apr 2021 09:01:00 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-instalar-configurar-oksh/</guid>
+      <description>O bash costuma ser o shell mais conhecido no mundo linux por vir padrão na maioria das distros. Muitos as vezes se perguntam: Será que existe algum outro shell para linux? Se tem, como posso instalá-lo? São essas perguntas que vamos responder nesse artigo!
+Existem tantos shells que é até difícil saber os nomes de todos eles! Porém, os mais conhecidos são o bash, o zsh, e o fish. Ainda assim, existem diversas pessoas que preferem um shell mais minimalista&amp;hellip; Eu diria que o oksh é uma ótima opção!</description>
+    </item>
+    
+    <item>
+      <title>Como instalar qualquer distro Linux sem pendrive</title>
+      <link>https://opentechlife.tk/posts/linux-sem-pendrive/</link>
+      <pubDate>Fri, 22 Jan 2021 19:01:18 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/linux-sem-pendrive/</guid>
+      <description>Hoje irei ensiná-los a instalar qualquer distribuição Linux sem usar nenhum pendrive. Por enquanto, este artigo só se aplica a usuários do Windows. Requisitos:
+ Windows 8 ou mais novo(O Windows 7 não é suportado, já que não trabalha com Uefi). UEFI ativado.   É meio triste ser necessário o suporte a UEFI, já que não funcionará em máquinas antigas. Como já dito antes, este tutorial foca em máquinas com Windows.</description>
+    </item>
+    
+    <item>
+      <title>Iwd, conheça um possível substituto ao NetworkManager</title>
+      <link>https://opentechlife.tk/posts/iwd-substituto-networkmanager/</link>
+      <pubDate>Fri, 22 Jan 2021 14:37:20 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/iwd-substituto-networkmanager/</guid>
+      <description>O iwd é um daemon sem fio para Linux escrito pela Intel. O objetivo principal do projeto é otimizar a utilização de recursos, não dependendo de nenhuma biblioteca externa e, em vez disso, utilizando os recursos fornecidos pelo Kernel Linux na máxima extensão possível.
+ Instalando o Iwd Para instalar o utilitário de wi-fi iwd no Arch e derivados, execute:
+# pacman -S iwd Debian, Ubuntu e derivados:
+sudo apt-get install iwd Fedora e derivados:</description>
+    </item>
+    
+    <item>
+      <title>Os 10 Principais Comandos para iniciantes no Linux</title>
+      <link>https://opentechlife.tk/posts/os-10-principais-comandos/</link>
+      <pubDate>Thu, 21 Jan 2021 14:58:46 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/os-10-principais-comandos/</guid>
+      <description>O Linux é muito mais do que um Kernel. Ele é um local de aprendizado, muito fácil de utilizar e muito seguro. Em Sistemas Operacionais Linux, podemos realizar diversas atividades. Diversas dessas atividades são feitas pelo Terminal disponível nessas distribuições. Calma, o terminal não é difícil de ser utilizado, com o tempo você vai pegando o jeito e se acostumando com ele.
+Mas… o número de comandos é MUITO grande! E sabendo utilizar o terminal, a lista de coisas que pode fazer no linux só aumenta.</description>
+    </item>
+    
+    <item>
+      <title>Como usar o &#39;fsck&#39; para Reparar Erros do Sistema de Arquivos no Linux</title>
+      <link>https://opentechlife.tk/posts/fsck/</link>
+      <pubDate>Fri, 11 Dec 2020 08:10:58 +0000</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/fsck/</guid>
+      <description>O OpenTech Life voltou com tudo para trazer conteúdo de qualidade para vocês! Já que o nosso objetivo é trazer conteúdo em Português, decidimos traduzir alguns artigos que não estão na devida língua. O de hoje vem do blog TecMint.
+Vamos falar sobre Filesystems e sobre o fsck. Os Sistemas de Arquivos são responsáveis por organizar como os dados são armazenados e recuperados. De uma forma ou de outra, com o tempo, o sistema de arquivos pode ser corrompido e certas partes dele ficam inacessíveis.</description>
+    </item>
+    
+    <item>
+      <title>O Guia dos Tiling Window Managers (TWMs)</title>
+      <link>https://opentechlife.tk/posts/guia-dos-twms/</link>
+      <pubDate>Fri, 11 Dec 2020 08:10:58 +0000</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/guia-dos-twms/</guid>
+      <description>Esse guia é um resumo sobre Tiling Window Managers
+O que é um Window Manager (WM)  Um window manager como o nome diz é um gerenciador de janelas, em sua essência ele nada faz alem de permitir que o usuário veja as janelas do desktop, toda interface utiliza um window manager, entretanto a maior parte das pessoas usa um window manager em conjunto com um Desktop Enviroment (DE).
+Um desktop environment nada mais é do que todo um conjunto de coisas atreladas a interface e usabilidade do desktop, nele podem estar contidos: window manager, terminal próprio, editor de texto, compositor, gerenciador de arquivos, notificações, central de configurações e outras coisas.</description>
+    </item>
+    
+  </channel>
+</rss>

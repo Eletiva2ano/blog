@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iniciantes on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/iniciantes/</link>
+    <description>Recent content in Iniciantes on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 16 Jun 2021 19:45:00 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/iniciantes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como Gravar a Tela no Wayland</title>
+      <link>https://opentechlife.tk/posts/como-gravar-a-tela-no-wayland/</link>
+      <pubDate>Wed, 16 Jun 2021 19:45:00 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-gravar-a-tela-no-wayland/</guid>
+      <description>Introdução Após duas semanas utilizando o Wayland, decidi permanecer nele por conta de minha boa experiência, assim como foi com o Pipewire. Embora ainda existam alguns bugs ou dificuldades no uso do Wayland, ele já se apresenta de forma muito utilizável. Durante meu uso, notei (ou talvez tenha sido somente impressão minha) um melhor funcionamento junto com o Pipewire como servidor de áudio e mídia. Mas esse não é o foco desse artigo!</description>
+    </item>
+    
+    <item>
+      <title>Como instalar o Batocera Plus em dual boot com Linux</title>
+      <link>https://opentechlife.tk/posts/como-instalar-o-batocera-plus-em-dual-boot-com-linux/</link>
+      <pubDate>Sun, 09 May 2021 11:42:00 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-instalar-o-batocera-plus-em-dual-boot-com-linux/</guid>
+      <description>Requisitos:  Um PC ou Notebook com linux GRUB2 instalado Um app para gerenciar partições do HD Um app para extrair arquivos img  O que é Batocera Linux? BATOCERA LINUX nada mais é que uma front-end de emuladores retrô para computador. Dentre eles está o famoso Retroarch.
+Qual a diferença do Batocera Linux para o Batocera Plus? O Batocera Plus é uma versão modificada do Batocera, que adiciona diversos recursos extras ao sistema, como correções de erros e personalizações.</description>
+    </item>
+    
+    <item>
+      <title>Os 10 Principais Comandos para iniciantes no Linux</title>
+      <link>https://opentechlife.tk/posts/os-10-principais-comandos/</link>
+      <pubDate>Thu, 21 Jan 2021 14:58:46 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/os-10-principais-comandos/</guid>
+      <description>O Linux é muito mais do que um Kernel. Ele é um local de aprendizado, muito fácil de utilizar e muito seguro. Em Sistemas Operacionais Linux, podemos realizar diversas atividades. Diversas dessas atividades são feitas pelo Terminal disponível nessas distribuições. Calma, o terminal não é difícil de ser utilizado, com o tempo você vai pegando o jeito e se acostumando com ele.
+Mas… o número de comandos é MUITO grande! E sabendo utilizar o terminal, a lista de coisas que pode fazer no linux só aumenta.</description>
+    </item>
+    
+    <item>
+      <title>Como usar o &#39;fsck&#39; para Reparar Erros do Sistema de Arquivos no Linux</title>
+      <link>https://opentechlife.tk/posts/fsck/</link>
+      <pubDate>Fri, 11 Dec 2020 08:10:58 +0000</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/fsck/</guid>
+      <description>O OpenTech Life voltou com tudo para trazer conteúdo de qualidade para vocês! Já que o nosso objetivo é trazer conteúdo em Português, decidimos traduzir alguns artigos que não estão na devida língua. O de hoje vem do blog TecMint.
+Vamos falar sobre Filesystems e sobre o fsck. Os Sistemas de Arquivos são responsáveis por organizar como os dados são armazenados e recuperados. De uma forma ou de outra, com o tempo, o sistema de arquivos pode ser corrompido e certas partes dele ficam inacessíveis.</description>
+    </item>
+    
+  </channel>
+</rss>

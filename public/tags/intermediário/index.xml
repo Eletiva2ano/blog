@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intermediário on OpenTech Life</title>
+    <link>https://opentechlife.tk/tags/intermedi%C3%A1rio/</link>
+    <description>Recent content in Intermediário on OpenTech Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 23 Jun 2021 21:39:14 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/intermedi%C3%A1rio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tudo que você precisa saber sobre Swappiness!</title>
+      <link>https://opentechlife.tk/posts/swappiness-guide/</link>
+      <pubDate>Wed, 23 Jun 2021 21:39:14 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/swappiness-guide/</guid>
+      <description>Salve comunidade pinguim! Faz um belo tempo que não dou as caras por aqui, né? Pois é, mas hoje estou de volta para falar de tudo que você deve saber sobre Swappiness!
+ A primeira coisa que queria abordar é como o swappiness funciona:
+ Existem alguns aspectos matemáticos envolvidos na swap que devem ser considerados ao alterar suas configurações. O valor do parâmetro definido como “60” significa que seu kernel irá usar a swap quando a RAM atingir 40% da capacidade.</description>
+    </item>
+    
+    <item>
+      <title>Aprenda a usar o Runit Init System</title>
+      <link>https://opentechlife.tk/posts/como-usar-runit/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-usar-runit/</guid>
+      <description>O que é Runit?  Runit é um esquema init para sistemas operacionais do tipo Unix que inicializa, supervisiona e termina processos em todo o sistema operacional. Runit é uma reimplementação do kit de ferramentas de supervisão de processo daemontools que é executado em muitos sistemas operacionais baseados em Linux, bem como nos sistemas operacionais macOS, BSD e Solaris.
+  Como funciona?   O Runit, diferente do systemd, não usa systemctl enable programa.</description>
+    </item>
+    
+    <item>
+      <title>Como instalar e configurar o oksh no Linux</title>
+      <link>https://opentechlife.tk/posts/como-instalar-configurar-oksh/</link>
+      <pubDate>Sat, 03 Apr 2021 09:01:00 -0300</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/como-instalar-configurar-oksh/</guid>
+      <description>O bash costuma ser o shell mais conhecido no mundo linux por vir padrão na maioria das distros. Muitos as vezes se perguntam: Será que existe algum outro shell para linux? Se tem, como posso instalá-lo? São essas perguntas que vamos responder nesse artigo!
+Existem tantos shells que é até difícil saber os nomes de todos eles! Porém, os mais conhecidos são o bash, o zsh, e o fish. Ainda assim, existem diversas pessoas que preferem um shell mais minimalista&amp;hellip; Eu diria que o oksh é uma ótima opção!</description>
+    </item>
+    
+    <item>
+      <title>O Guia dos Tiling Window Managers (TWMs)</title>
+      <link>https://opentechlife.tk/posts/guia-dos-twms/</link>
+      <pubDate>Fri, 11 Dec 2020 08:10:58 +0000</pubDate>
+      
+      <guid>https://opentechlife.tk/posts/guia-dos-twms/</guid>
+      <description>Esse guia é um resumo sobre Tiling Window Managers
+O que é um Window Manager (WM)  Um window manager como o nome diz é um gerenciador de janelas, em sua essência ele nada faz alem de permitir que o usuário veja as janelas do desktop, toda interface utiliza um window manager, entretanto a maior parte das pessoas usa um window manager em conjunto com um Desktop Enviroment (DE).
+Um desktop environment nada mais é do que todo um conjunto de coisas atreladas a interface e usabilidade do desktop, nele podem estar contidos: window manager, terminal próprio, editor de texto, compositor, gerenciador de arquivos, notificações, central de configurações e outras coisas.</description>
+    </item>
+    
+  </channel>
+</rss>
