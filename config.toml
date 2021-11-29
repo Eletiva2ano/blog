@@ -53,6 +53,6 @@ github = "Eletiva2ano"
 
 
 
-#[outputs]
-#  home = ["HTML", "RSS", "JSON"]
-#reversePostAndAside = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+reversePostAndAside = true
