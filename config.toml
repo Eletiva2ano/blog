@@ -1,4 +1,4 @@
-baseURL = "https://opentechlife.tk/"
+baseURL = "https://eletiva2ano.netlify.app/"
 languageCode = "pt-br"
 theme = "dream"
 defaultContentLanguage = "pt"
@@ -32,7 +32,7 @@ highlightjsThemeDark = "gruvbox-dark"
 favicon= "https://cdn.discordapp.com/attachments/806642907263139850/914989928868376576/Untitled.jpeg"
 
 # RSS
-rss = true
+rss = false
 
 # Busca
 enableSearch = true

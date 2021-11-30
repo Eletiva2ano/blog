@@ -2,35 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Eletiva</title>
-    <link>https://opentechlife.tk/tags/</link>
+    <link>https://eletiva2ano.netlify.app/tags/</link>
     <description>Recent content in Tags on Eletiva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 28 Nov 2021 07:48:01 -0300</lastBuildDate><atom:link href="https://opentechlife.tk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Nov 2021 07:48:01 -0300</lastBuildDate><atom:link href="https://eletiva2ano.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bullyng</title>
-      <link>https://opentechlife.tk/tags/bullyng/</link>
+      <link>https://eletiva2ano.netlify.app/tags/bullyng/</link>
       <pubDate>Sun, 28 Nov 2021 07:48:01 -0300</pubDate>
       
-      <guid>https://opentechlife.tk/tags/bullyng/</guid>
+      <guid>https://eletiva2ano.netlify.app/tags/bullyng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ciência</title>
+      <link>https://eletiva2ano.netlify.app/tags/ci%C3%AAncia/</link>
+      <pubDate>Sun, 28 Nov 2021 07:48:01 -0300</pubDate>
+      
+      <guid>https://eletiva2ano.netlify.app/tags/ci%C3%AAncia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mulheres</title>
+      <link>https://eletiva2ano.netlify.app/tags/mulheres/</link>
+      <pubDate>Sun, 28 Nov 2021 07:48:01 -0300</pubDate>
+      
+      <guid>https://eletiva2ano.netlify.app/tags/mulheres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Respeito</title>
-      <link>https://opentechlife.tk/tags/respeito/</link>
+      <link>https://eletiva2ano.netlify.app/tags/respeito/</link>
       <pubDate>Sun, 28 Nov 2021 07:48:01 -0300</pubDate>
       
-      <guid>https://opentechlife.tk/tags/respeito/</guid>
+      <guid>https://eletiva2ano.netlify.app/tags/respeito/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sociedade</title>
-      <link>https://opentechlife.tk/tags/sociedade/</link>
+      <link>https://eletiva2ano.netlify.app/tags/sociedade/</link>
       <pubDate>Sun, 28 Nov 2021 07:48:01 -0300</pubDate>
       
-      <guid>https://opentechlife.tk/tags/sociedade/</guid>
+      <guid>https://eletiva2ano.netlify.app/tags/sociedade/</guid>
       <description></description>
     </item>
     

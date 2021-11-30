@@ -11,11 +11,15 @@ cover: "https://cdn.discordapp.com/attachments/806642907263139850/91498163427150
 ---
 
 # Videos recomendados
-### [Faces: ONU pela diversidade LGBT e luta contra homofobia:](https://www.youtube.com/watch?v=8qsSlomXuzE)   
-### [Direitos Humanos:](https://www.youtube.com/watch?v=hGKAaVoDlSs)
-### [Rita em 5 Minutos: LGBTQIA+:](https://www.youtube.com/watch?v=EREoc40JBr8) 
-### [A música que todos deveriam saber a letra:](https://www.youtube.com/watch?v=H__qP2vx4Sk)
- 
+[Faces: ONU pela diversidade LGBT e luta contra homofobia:](https://www.youtube.com/watch?v=8qsSlomXuzE)   
+
+[Direitos Humanos:](https://www.youtube.com/watch?v=hGKAaVoDlSs)
+
+[Rita em 5 Minutos: LGBTQIA+:](https://www.youtube.com/watch?v=EREoc40JBr8) 
+
+[A música que todos deveriam saber a letra:](https://www.youtube.com/watch?v=H__qP2vx4Sk)
+
+---- 
 A incitação à violência contra as pessoas LGBTI é baseada em preconceitos por motivo de sua 
 orientação sexual, identidade de gênero e/ou expressão, e diversidade corporal. Os discursos 
 de ódio contra as pessoas LGBTI frequentemente descrevem essas pessoas como doentes, 
@@ -101,11 +105,17 @@ noção de mundo, levando em conta que o limite de nosso espaço de viver e pens
 começa o espaço do outro. Exercite o respeito nessa atividade. 
 
 1 - Gênero:  
+
 2 - Saúde sexual e reprodutiva (SSR): 
+
 3 - Direitos sexuais e cidadania:  
+
 4 – Prazer: 
+
 5 – Violência: 
+
 6 – Diversidade: 
+
 7 - Relacionamentos (relações): 
 
 #### Agora que você já construiu os marcos da tolerância, apresentamos a escala de tolerância. Esse modelo foi adaptado por um estudioso, a fim de medir e estudar os posicionamentos humanos acerca do respeito à diversidade.
