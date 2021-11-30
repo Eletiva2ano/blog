@@ -31,6 +31,25 @@ histórias de descobertas e conquistas.
 Lembramos 10 mulheres que escreveram seus nomes na história e fazem parte do 
 grupo de cientistas mais importantes do mundo.
 
-## Ada Lovelace, Matemática - * 1815 † 1852
+## Ada Lovelace, Matemática 
+⭐️ 1815 - ⚰️ 1852
 
-![]()
+![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto1.png?raw=true)
+
+#####               Créditos: Alfred Edward Chalon | Science Museum Group | Public Domain
+
+Ada Lovelace é reconhecida como a primeira programadora de computadores, muito antes dos computadores modernos serem inventados. Seus estudos sobre a máquina analítica de Charles Babbage (um computador programável para usos genéricos) é considerado o primeiro algoritmo para computação do mundo.
+
+## Marie Curie, Física e Química 
+⭐️ 1867- ⚰️ 1934
+
+![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto2.png?raw=true)
+
+#####             Créditos: Internet Archive Book Images | Flickr Commons
+
+A descoberta mais importante de Marie Curie foi a descoberta da radioatividade o que levou à 
+invenção do raio-x móvel, que foi usado durante a I Guerra Mundial. Com seu marido, Pierre, 
+Marie também descobriu os elementos radioativos polônio e rádio – e desenvolveu técnicas que 
+permitem isolar isótopos radioativos. Em 1903, ela foi a primeira mulher a receber um Prêmio 
+Nobel. Depois de receber o Prêmio Nobel de Física, ela recebeu um Prêmio Nobel de Química e se 
+tornou a primeira pessoa na história a receber duas premiações.
