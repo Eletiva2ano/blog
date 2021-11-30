@@ -11,7 +11,7 @@ title = "Eletiva"
 [params]
   author = "Vinícius"
   description = "Um site desenvolvido por alunos do ensino médio com objetivo de transmitir conhecimento" # descrição que irá aparecer nos buscadores
-  avatar = "https://cdn.discordapp.com/attachments/806642907263139850/914989928868376576/Untitled.jpeg"
+  avatar = "https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Foto_Site.jpeg?raw=true"
   headerTitle = "Eletiva"
   motto = '"O importante é não parar de questionar." - Albert Einstein' # descrição que fica no site
 showSummaryCoverInPost = true
@@ -29,10 +29,10 @@ highlightjsExtraLanguages = ["ocaml"]
 highlightjsTheme = "gruvbox-light"
 highlightjsThemeDark = "gruvbox-dark"
 
-favicon= "https://cdn.discordapp.com/attachments/806642907263139850/914989928868376576/Untitled.jpeg"
+favicon= "https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Foto_Site.jpeg?raw=true"
 
 # RSS
-rss = false
+rss = true
 
 # Busca
 enableSearch = true

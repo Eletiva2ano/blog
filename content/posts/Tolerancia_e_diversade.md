@@ -7,7 +7,8 @@ tags:
   - Sociedade
   - Bullyng
   - Respeito
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/914981634271506483/unknown.png"
+cover: "https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/toler%C3%A2ncia%20e%20a%20diversidade,%20banner.png?raw=true"
+
 ---
 
 # Videos recomendados
@@ -59,7 +60,7 @@ garantam tanto o direito à igualdade e não discriminação, a liberdade de exp
 direito a viver uma vida livre de violência mediante a promoção da tolerância, da diversidade 
 e de opiniões pluralistas, que são o centro de sociedades pluralistas e democráticas.
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/914985535024537670/unknown.png)
+![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/toler%C3%A2ncia%20e%20a%20diversidade,%20foto1.png?raw=true)
 
 Para tanto, devem proteger o espaço civil e criar um ambiente seguro, onde as pessoas LGBTI 
 possam expressar suas opiniões sem temor de represálias ou violência. Os Estados têm o dever 
@@ -89,7 +90,7 @@ Sr. Victor Madrigal-Borloz, Especialista independente sobre proteção contra a 
 discriminação por orientação sexual e identidade de gênero; e Sr. David Kaye, Relator Especial 
 sobre a promoção e proteção do direito à liberdade de opinião e expressão.
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/914985863841210368/unknown.png)
+![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/toler%C3%A2ncia%20e%20a%20diversidade,%20foto2.png?raw=true)
 
 ######                Desenho de Laís Vargas Kill, publicado no Currículo do Espírito Santo, 2018
 
@@ -120,4 +121,4 @@ começa o espaço do outro. Exercite o respeito nessa atividade.
 
 #### Agora que você já construiu os marcos da tolerância, apresentamos a escala de tolerância. Esse modelo foi adaptado por um estudioso, a fim de medir e estudar os posicionamentos humanos acerca do respeito à diversidade.
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/914986270663540806/unknown.png)
+![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/toler%C3%A2ncia%20e%20a%20diversidade,%20foto3.png?raw=true)
