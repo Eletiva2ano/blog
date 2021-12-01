@@ -1,6 +1,6 @@
 ---
 title: "Promover a tolerância e a diversidade, denunciar o ódio e a intolerância"
-author: Vinicius
+author: Alunos
 date: 2021-11-28T07:48:01-03:00
 draft: false
 tags:
