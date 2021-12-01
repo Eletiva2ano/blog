@@ -8,6 +8,8 @@ title = "Eletiva"
 # Copyright
 #copyright = "Eletiva"
 
+disqusShortname = "eletiva2ano"
+
 [params]
   author = "Vinícius"
   description = "Um site desenvolvido por alunos do ensino médio com objetivo de transmitir conhecimento" # descrição que irá aparecer nos buscadores
@@ -33,6 +35,8 @@ favicon= "https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Foto_Site.jpeg
 
 # RSS
 rss = true
+
+
 
 # Busca
 enableSearch = true
