@@ -1,5 +1,6 @@
 ---
 title: "História do videogame: relembre os consoles que marcaram época"
+author: Alunos
 date: 2022-01-25T09:49:33-03:00
 draft: false
 tags:

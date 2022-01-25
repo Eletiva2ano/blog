@@ -1,5 +1,6 @@
 ---
-title: "Breve_História_da_Contracepção"
+title: "Breve História da Contracepção"
+author: Alunos
 date: 2022-01-25T09:34:37-03:00
 draft: false
 tags:
@@ -9,7 +10,7 @@ tags:
 cover: "https://cdn.discordapp.com/attachments/806642907263139850/934109411746648074/2fc781ec-6263-43ad-a5fc-ab1dab258127.png"
 ---
 
-## AS PRIMEIRAS TENTATIVAS
+## As primeiras tentativas
 
 A anticoncepção tem uma história milenar. Hipócrates (460-377 a.C.(1)) já sabia que a semente da 
 cenoura selvagem era capaz de prevenir a gravidez. No mesmo período, Aristóteles mencionou a 
@@ -25,7 +26,7 @@ a relação do sêmen com a gravidez. O método anticoncepcional masculino mais 
 interrompido, método citado na Gênesis relacionando Onân, que provocou a ira de Deus ao derramar 
 suas sementes no chão.
 
-## O PRIMEIRO PRESERVATIVO
+## O primeiro preservativo
 Acredita-se que o preservativo remonte aos tempos da Roma antiga, quando eram utilizadas bexigas 
 de animais para proteção contra as doenças sexualmente transmissíveis. Os envoltórios ou 
 preservativos de linho foram descritos em 1564 pelo anatomista italiano Falópio. No século XVIII, 
@@ -34,7 +35,7 @@ A borracha vulcanizada foi inventada em 1844, impulsionando a fabricação de pr
 aceitáveis e baratos que os preservativos de crepe de borracha. O desenvolvimento do poliuretano 
 facilitou o lançamento do primeiro preservativo feminino em 1992.
 
-## O DIAFRAGMA
+## O diafragma
 A ideia do diafragma moderno surgiu com um alemão, Friedrich Adolf Wilde, que sugeriu que fosse 
 feita impressão em cera da cérvice de cada mulher. A partir desse molde seria confeccionada 
 barreira anticoncepcional de borracha. Somente em 1870, o Dr. Mesinga desenvolveu o diafragma de 
@@ -44,7 +45,7 @@ anos, que inseria objetos no útero com a ajuda de tubo de chumbo. Entretanto, o
 clinicamente aceito, a Alça de Lippes, só foi amplamente adotado em 1962. Atualmente, existem 
 dispositivos de cobre em diferentes formatos, entre os quais o mais popular é o em forma de "T".
 
-## O NASCIMENTO DA PÍLULA
+## O nascimento da pílula
 Em 1921, Haberlandt provocou a infertilidade temporária em coelhas nas quais havia implantado 
 ovários retirados de outras coelhas. Ele sugeriu que os extratos de ovários poderiam ser 
 anticoncepcionais eficientes. A noretisterona, um hormônio sintético semelhante à progesterona 
@@ -57,10 +58,10 @@ estudos com os primeiros COCs, tornando-se o médico conhecido como "o pai da p�
 pílula que continha somente o progestógeno (depois chamada de Minipílula) foi lançada apenas oito 
 anos mais tarde.
 
-## O IMPLANTE
+## O implante
 A inovação contraceptiva seguinte foi pequeno implante que continha o hormônio levonorgestrel. Esse implante deve ser inserido sob a pele da face interna do antebraço, tendo sido projetado para ser eficaz por cinco anos. Entretanto, sua inserção e extração requerem pessoal médico treinado, o que limita seu uso. O hormônio é liberado na musculatura e então passa à corrente sanguínea, podendo circular por todo o organismo e provocar alguns efeitos adversos.
 
-## O ENDOCEPTIVO
+## O endocptivo
 O endoceptivo (contraceptivo endógeno - sistema de liberação intra-uterino) desenvolvido e patenteado pelo grupo Schering, inaugura uma fase inovadora na contracepção feminina. Consiste basicamente em um sistema que é inserido no útero da mulher e libera o hormônio levonorgestrel gradativamente em doses idealmente mais baixas, por um período de cinco anos. O método é altamente eficaz e totalmente reversível, sendo especialmente indicado para mulheres com filhos que desejam adiar uma nova gravidez por um longo prazo.
 
 > Fonte: https://m.pharma.bayer.com.br/pt/areas-terapeuticas
