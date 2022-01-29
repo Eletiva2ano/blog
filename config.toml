@@ -6,8 +6,9 @@ disableLanguages = ["fr", "ja","ch"]
 title = "Eletiva"
 
 # Copyright
-#copyright = "Eletiva"
+copyright = "Eletiva"
 
+googleAnalytics = "G-L8XNN582QM"
 disqusShortname = "eletiva2ano"
 
 [params]
