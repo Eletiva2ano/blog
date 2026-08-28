@@ -14,7 +14,7 @@ disqusShortname = "eletiva2ano"
 [params]
   author = "Vinícius"
   description = "Um site desenvolvido por alunos do ensino médio com objetivo de transmitir conhecimento" # descrição que irá aparecer nos buscadores
-  avatar = "https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Foto_Site.jpeg?raw=true"
+  avatar = "/img/banco-de-fotos/Foto_Site.jpeg"
   headerTitle = "Eletiva"
   motto = '"O importante é não parar de questionar." - Albert Einstein' # descrição que fica no site
 showSummaryCoverInPost = true
@@ -32,7 +32,7 @@ highlightjsExtraLanguages = ["ocaml"]
 highlightjsTheme = "gruvbox-light"
 highlightjsThemeDark = "gruvbox-dark"
 
-favicon= "https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Foto_Site.jpeg?raw=true"
+favicon= "/img/banco-de-fotos/Foto_Site.jpeg"
 
 # RSS
 rss = true

@@ -34,7 +34,7 @@ grupo de cientistas mais importantes do mundo.
 ## Ada Lovelace, Matemática 
 ⭐️ 1815 - ⚰️ 1852
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto1.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto1.png)
 
 #####               Créditos: Alfred Edward Chalon | Science Museum Group | Public Domain
 
@@ -43,7 +43,7 @@ Ada Lovelace é reconhecida como a primeira programadora de computadores, muito 
 ## Marie Curie, Física e Química 
 ⭐️ 1867 - ⚰️ 1934
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto2.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto2.png)
 
 #####             Créditos: Internet Archive Book Images | Flickr Commons
 
@@ -58,7 +58,7 @@ tornou a primeira pessoa na história a receber duas premiações.
 
 ⭐️ 1897 - ⚰️ 1984
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto3.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto3.png)
 
 #####             Créditos: John Innes Centre
 
@@ -70,7 +70,7 @@ Ambiental e lutou pela preservação da biodiversidade no país.
 
 ⭐️ 1912 - ⚰️ 1997
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto4.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto4.png)
 
 #####           Créditos: Smithsonian Institution | Flickr Commons
 
@@ -83,7 +83,7 @@ trabalharam com ela, apesar de Wu ter sido figura central destes estudos.
 
 ⭐️ 1918 - ⚰️ 2020
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto5.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto5.png)
 
 #####           Créditos: NASA
 
@@ -95,7 +95,7 @@ história foi contada no filme Estrelas Além do Tempo.
 
 ⭐️ 1920 - ⚰️ 1958
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto6.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto6.png)
 
 #####           Créditos: MRC Laboratory of Molecular Biology
 
@@ -107,7 +107,7 @@ descoberta.
 
 ⭐️ 1928 - ⚰️ 2016
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto7.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto7.png)
 
 #####         Créditos: NOAO | AURA |NSF
 
@@ -119,7 +119,7 @@ Século XX – e mereceria um Prêmio Nobel.
 
 ⭐️ 1930
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto8.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto8.png)
 
 #####          Créditos: U.S. Air Force
 
@@ -131,7 +131,7 @@ Fama da Força Aérea Americana, uma das maiores honras que alguém pode receber
 
 ⭐️ 1947
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto9.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto9.png)
 
 #####         Créditos: Bill Branson | National Cancer Institute
 
@@ -141,7 +141,7 @@ Wong-Staal foi a primeira cientista a clonar o vírus HIV e mapear seus genes, o
 
 ⭐️ 1964
 
-![](https://github.com/Eletiva2ano/Banco-de-fotos/blob/main/Mulheres%20e%20ciencia,%20foto10.png?raw=true)
+![](/img/banco-de-fotos/Mulheres-e-ciencia-foto10.png)
 
 #####         Créditos: Duncan Hull
 
