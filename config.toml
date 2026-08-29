@@ -54,10 +54,9 @@ github = "Eletiva2ano"
 
   siteStartYear = 2021
 
-
+  reversePostAndAside = true
 
 
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-reversePostAndAside = true
