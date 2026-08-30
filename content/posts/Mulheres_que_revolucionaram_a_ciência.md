@@ -8,7 +8,7 @@ tags:
   - Mulheres
   - Respeito
   - Ciência
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/915051742746529832/2Q.png"
+cover: "/img/banco-de-fotos/Mulheres-e-ciencia-banner.png"
 ---
 
 # Conteudos para ampliar seu conhecimento:
