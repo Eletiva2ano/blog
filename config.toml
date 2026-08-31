@@ -28,5 +28,8 @@ title = "Eletiva"
 
   siteStartYear = 2021
 
+  # "categories" removida: a taxonomia nunca é usada nos posts, então o link ficava sempre vazio
+  reorderNavItems = ["about", "search", "rss", "posts", "tags"]
+
   [params.advanced]
     customCSS = ["css/custom.css"]
