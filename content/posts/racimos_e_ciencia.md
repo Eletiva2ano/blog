@@ -66,7 +66,9 @@ demonstrou sua falta de embasamento científico. É incorreto definir fenômenos
 quanto a imensa variabilidade humana e a história da evolução do homem com um conceito estático e 
 estéril como o de "raça".
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/934100612554035270/unknown.png)
+![](/img/banco-de-fotos/phrenology-chart.jpg)
+
+##### Créditos: John Wilson Bengough, 1887 | Wikimedia Commons (Domínio Público)
 
 A terminologia mudou de raça para ancestralidade. Isso se refere a características herdadas dos 
 pais e ancestrais de uma pessoa. Essa mudança também foi necessária porque não é verdade que um 
@@ -82,7 +84,9 @@ afirmação ainda atual. Infelizmente, temos que admitir que ainda existem aquel
 existem "raças" humanas. Isso, apesar de a ciência provar que não há evidências suficientes ou 
 bases rigorosas para defini-las no ser humano.
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/934100306655060068/unknown.png)
+![](/img/banco-de-fotos/diversidade-pessoas.jpg)
+
+##### Créditos: Lukasz Kobus / União Europeia | Wikimedia Commons (CC BY 4.0)
 
                               Sob nossa pele, somos todos iguais.
 

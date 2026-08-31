@@ -11,9 +11,9 @@ tags:
 cover: "/img/banco-de-fotos/bullying-banner.png"
 ---
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/934106542586884116/unknown.png)
+![](/img/banco-de-fotos/bullying-poster.png)
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/934107148823199784/unknown.png)
+![](/img/banco-de-fotos/bullying-campaign.jpg)
 
 ## As 13 razões do BullyingAs 13 razões do Bullying
 

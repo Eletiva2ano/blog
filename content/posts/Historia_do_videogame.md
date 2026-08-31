@@ -21,9 +21,11 @@ cover: "/img/banco-de-fotos/historia-do-videogame-banner.png"
 
 > Novos videogames são lançados frequentemente, mas por trás de gráficos bonitos, há uma história extensa
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/935517824523321405/unknown.png)
+![](/img/banco-de-fotos/videogame-history-exhibit.jpg)
 
 *Com o tempo, as empresas foram adaptando os videogames*
+
+##### Créditos: Video Games History Exhibition | Wikimedia Commons (CC BY 2.0)
  
 Atualmente, os videogames compõem uma indústria global de US $ 100 bilhões. E não é de admirar: 
 os videogames existem há décadas e abrangem uma gama de plataformas, desde fliperama a consoles 
@@ -35,9 +37,10 @@ mundo.
 
 ## Magnavox Odyssey 
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/935518189817827388/unknown.png)
+![](/img/banco-de-fotos/magnavox-odyssey.jpg)
 
 > Magnavox Odyssey foi o primeiro videogame da história
+##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
  
 Em 1972 nasceu o primeiro console de videogame lançado na história, batizado de Magnavox Odyssey.
 A ideia surgiu com Ralph Baer em 1966, com o intuito de criar algo que pudesse interagir com a 
@@ -50,7 +53,9 @@ processadores disponíveis, os jogos não tinham cores e ambientes complexos. Al
 precisava colocar um filtro plástico, vendido com os game cards, na frente da tela da TV para dar 
 a ilusão de linhas, cenários, cores e contornos durante o gameplay.
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/935518379740127282/unknown.png)
+![](/img/banco-de-fotos/magnavox-odyssey-addons.jpg)
+
+##### Créditos: The History of How We Play | Wikimedia Commons (CC0)
 
 Para completar, o Odyssey era vendido com dados, fichas de poker, dinheiro de mentira e tabelas d
 e pontuação. A ideia era que os jogadores encarassem o game como um tipo de jogo de tabuleiro 
@@ -58,9 +63,10 @@ digital, daí a necessidade desses acessórios curiosos.
 
 ## Atari 2600
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/935519029030969355/unknown.png)
+![](/img/banco-de-fotos/atari-2600.jpg)
 
 > O Atari lançado com essa nova versão em 1977 revolucionou o mundo dos games
+##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
  
 Responsável por revolucionar a história dos games, o Atari foi lançado em 1977  e carrega 
 histórias curiosas por trás. Em 1970, Nollan Bushnel consertava fliperamas em Utah, cidade que 
@@ -82,15 +88,18 @@ da Atari.
 
 ## Mega Drive
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/935519434620170270/unknown.png)
+![](/img/banco-de-fotos/mega-drive.jpg)
 
 > O Mega Drive disputava vendas com o Nintendo 64
+##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
 
 O Mega Drive da Sega chegou para criar mais uma geração de videogames com seus jogos de fitas. O console fez grande sucesso ao criar um controle com manoplas, mas principalmente por apresentar novas cores, gráficos e sons. Quem não se lembra do Sonic? O jogo idealizado pela Sega era o principal concorrente do Super Mario Bros, herói dos consoles da Nintendo nos anos 90. Na década de 90 foi grande sucesso e até hoje é possível encontrar consoles em bons estados de conservação. Assim como o Nintendo 64, o Mega Drive perdeu popularidade após a chegada da Sony com o Playstation 1.
 
 ## Playstation 1
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/935519917019660288/unknown.png)
+![](/img/banco-de-fotos/playstation1.jpg)
+
+##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
 
 ### Playstation 1 e a nova história do videogame
 

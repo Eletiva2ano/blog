@@ -14,9 +14,11 @@ cover: "/img/banco-de-fotos/cientistas-guerra-banner.png"
 O papel dos cientistas na Segunda Guerra Mundial foi de fundamental importância, haja vista que 
 foram eles os responsáveis pelas inovações tecnológicas aplicadas à guerra.
 
-![](https://cdn.discordapp.com/attachments/806642907263139850/934103891405054034/unknown.png)
+![](/img/banco-de-fotos/kurchatov-1943.jpg)
 
 Igor Kurchatov foi um dos primeiros cientistas atômicos da URSS*
+
+##### Créditos: Evgeny Tikhanov / TASS, 1943 | Wikimedia Commons (Domínio Público)
 As guerras modernas, assim como quaisquer outras práticas humanas realizadas a partir do 
 desenvolvimento da ciência moderna, nos séculos XVI e XVII, destacaram-se por um progressivo 
 avanço tecnológico. Dos canhões, terrestres e navais, do século XVIII às bombas atômicas do 
