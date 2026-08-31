@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /posts/racimos_e_ciencia/
 title: "Racismo: como a ciência desmantelou a teoria de que existem diferentes raças humanas"
 author: Alunos
 date: 2022-01-21T07:48:01-07:00
@@ -9,7 +11,7 @@ tags:
   - Consciencia Negra
   - Ciência
 description: "Como a ciência moderna desmontou a ideia de que existem diferentes raças humanas."
-cover: "/img/banco-de-fotos/racismo-ciencia-banner.png"
+cover: capa.png
 ---
 
 ----
@@ -67,7 +69,7 @@ demonstrou sua falta de embasamento científico. É incorreto definir fenômenos
 quanto a imensa variabilidade humana e a história da evolução do homem com um conceito estático e 
 estéril como o de "raça".
 
-![](/img/banco-de-fotos/phrenology-chart.jpg)
+![](frenologia.jpg)
 
 ##### Créditos: John Wilson Bengough, 1887 | Wikimedia Commons (Domínio Público)
 
@@ -85,7 +87,7 @@ afirmação ainda atual. Infelizmente, temos que admitir que ainda existem aquel
 existem "raças" humanas. Isso, apesar de a ciência provar que não há evidências suficientes ou 
 bases rigorosas para defini-las no ser humano.
 
-![](/img/banco-de-fotos/diversidade-pessoas.jpg)
+![](diversidade.jpg)
 
 ##### Créditos: Lukasz Kobus / União Europeia | Wikimedia Commons (CC BY 4.0)
 

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /posts/mulheres_que_revolucionaram_a_ciência/
 title: "10 Mulheres que revolucionaram a ciência"
 author: Alunos
 date: 2021-11-28T07:48:01-03:00
@@ -9,7 +11,7 @@ tags:
   - Respeito
   - Ciência
 description: "Conheça 10 mulheres cientistas que revolucionaram a ciência e mudaram a forma como enxergamos o universo."
-cover: "/img/banco-de-fotos/Mulheres-e-ciencia-banner.png"
+cover: capa.png
 ---
 
 # Conteudos para ampliar seu conhecimento:
@@ -35,7 +37,7 @@ grupo de cientistas mais importantes do mundo.
 ## Ada Lovelace, Matemática 
 ⭐️ 1815 - ⚰️ 1852
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto1.png)
+![](01.png)
 
 #####               Créditos: Alfred Edward Chalon | Science Museum Group | Public Domain
 
@@ -44,7 +46,7 @@ Ada Lovelace é reconhecida como a primeira programadora de computadores, muito 
 ## Marie Curie, Física e Química 
 ⭐️ 1867 - ⚰️ 1934
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto2.png)
+![](02.png)
 
 #####             Créditos: Internet Archive Book Images | Flickr Commons
 
@@ -59,7 +61,7 @@ tornou a primeira pessoa na história a receber duas premiações.
 
 ⭐️ 1897 - ⚰️ 1984
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto3.png)
+![](03.png)
 
 #####             Créditos: John Innes Centre
 
@@ -71,7 +73,7 @@ Ambiental e lutou pela preservação da biodiversidade no país.
 
 ⭐️ 1912 - ⚰️ 1997
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto4.png)
+![](04.png)
 
 #####           Créditos: Smithsonian Institution | Flickr Commons
 
@@ -84,7 +86,7 @@ trabalharam com ela, apesar de Wu ter sido figura central destes estudos.
 
 ⭐️ 1918 - ⚰️ 2020
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto5.png)
+![](05.png)
 
 #####           Créditos: NASA
 
@@ -96,7 +98,7 @@ história foi contada no filme Estrelas Além do Tempo.
 
 ⭐️ 1920 - ⚰️ 1958
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto6.png)
+![](06.png)
 
 #####           Créditos: MRC Laboratory of Molecular Biology
 
@@ -108,7 +110,7 @@ descoberta.
 
 ⭐️ 1928 - ⚰️ 2016
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto7.png)
+![](07.png)
 
 #####         Créditos: NOAO | AURA |NSF
 
@@ -120,7 +122,7 @@ Século XX – e mereceria um Prêmio Nobel.
 
 ⭐️ 1930
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto8.png)
+![](08.png)
 
 #####          Créditos: U.S. Air Force
 
@@ -132,7 +134,7 @@ Fama da Força Aérea Americana, uma das maiores honras que alguém pode receber
 
 ⭐️ 1947
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto9.png)
+![](09.png)
 
 #####         Créditos: Bill Branson | National Cancer Institute
 
@@ -142,7 +144,7 @@ Wong-Staal foi a primeira cientista a clonar o vírus HIV e mapear seus genes, o
 
 ⭐️ 1964
 
-![](/img/banco-de-fotos/Mulheres-e-ciencia-foto10.png)
+![](10.png)
 
 #####         Créditos: Duncan Hull
 

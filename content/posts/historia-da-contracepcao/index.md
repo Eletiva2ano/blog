@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /posts/breve_história_da_contracepção/
 title: "Breve História da Contracepção"
 author: Alunos
 date: 2022-01-25T09:34:37-03:00
@@ -8,7 +10,7 @@ tags:
   - História
   - Mulher
 description: "Uma linha do tempo dos métodos contraceptivos, da Antiguidade até os dispositivos hormonais modernos."
-cover: "/img/banco-de-fotos/breve-historia-contracepcao-banner.png"
+cover: capa.png
 ---
 
 ## As primeiras tentativas
@@ -67,6 +69,6 @@ O endoceptivo (contraceptivo endógeno - sistema de liberação intra-uterino) d
 
 > Fonte: https://m.pharma.bayer.com.br/pt/areas-terapeuticas
 
-![](/img/banco-de-fotos/contracepcao-metodos.jpg)
+![](metodos.jpg)
 
 ##### Créditos: GiftedLydia | Wikimedia Commons (CC BY-SA 4.0)

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /posts/tolerancia_e_diversade/
 title: "Promover a tolerância e a diversidade, denunciar o ódio e a intolerância"
 author: Alunos
 date: 2021-11-28T07:48:01-03:00
@@ -8,7 +10,7 @@ tags:
   - Bullyng
   - Respeito
 description: "Um convite para promover a tolerância e a diversidade, e denunciar o ódio contra as pessoas LGBTI."
-cover: "/img/banco-de-fotos/tolerancia-e-a-diversidade-banner.png"
+cover: capa.png
 
 ---
 
@@ -61,7 +63,7 @@ garantam tanto o direito à igualdade e não discriminação, a liberdade de exp
 direito a viver uma vida livre de violência mediante a promoção da tolerância, da diversidade 
 e de opiniões pluralistas, que são o centro de sociedades pluralistas e democráticas.
 
-![](/img/banco-de-fotos/tolerancia-e-a-diversidade-foto1.png)
+![](01.png)
 
 Para tanto, devem proteger o espaço civil e criar um ambiente seguro, onde as pessoas LGBTI 
 possam expressar suas opiniões sem temor de represálias ou violência. Os Estados têm o dever 
@@ -91,7 +93,7 @@ Sr. Victor Madrigal-Borloz, Especialista independente sobre proteção contra a 
 discriminação por orientação sexual e identidade de gênero; e Sr. David Kaye, Relator Especial 
 sobre a promoção e proteção do direito à liberdade de opinião e expressão.
 
-![](/img/banco-de-fotos/tolerancia-e-a-diversidade-foto2.png)
+![](02.png)
 
 ######                Desenho de Laís Vargas Kill, publicado no Currículo do Espírito Santo, 2018
 
@@ -122,4 +124,4 @@ começa o espaço do outro. Exercite o respeito nessa atividade.
 
 #### Agora que você já construiu os marcos da tolerância, apresentamos a escala de tolerância. Esse modelo foi adaptado por um estudioso, a fim de medir e estudar os posicionamentos humanos acerca do respeito à diversidade.
 
-![](/img/banco-de-fotos/tolerancia-e-a-diversidade-foto3.png)
+![](03.png)

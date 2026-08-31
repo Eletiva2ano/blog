@@ -13,7 +13,7 @@ title = "Eletiva"
 [params]
   author = "Vinícius"
   description = "Um site desenvolvido por alunos do ensino médio com objetivo de transmitir conhecimento" # descrição que irá aparecer nos buscadores
-  avatar = "/img/banco-de-fotos/Foto_Site.jpeg"
+  avatar = "/img/site/logo.jpeg"
   headerTitle = "Eletiva"
   motto = '"O importante é não parar de questionar." - Albert Einstein' # descrição que fica no site
   showSummaryCoverInPost = true
@@ -21,7 +21,7 @@ title = "Eletiva"
   lightTheme = "emerald"
   darkTheme = "forest"
 
-  favicon = "/img/banco-de-fotos/Foto_Site.jpeg"
+  favicon = "/img/site/logo.jpeg"
 
   # RSS
   rss = true

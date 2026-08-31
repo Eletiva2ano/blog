@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /posts/evolucao_de_graficos_nos_games/
 title: "Antes e depois: confira a evolução de gráficos de games atuais em relação ao primeiro título da mesma franquia"
 date: 2022-01-25T11:54:00-03:00
 author: Alunos
@@ -23,7 +25,7 @@ tags:
   - Mortal Kombat
   - The Sims
 description: "Uma comparação da evolução gráfica de franquias clássicas dos videogames, do primeiro título até os lançamentos mais recentes."
-cover: "/img/banco-de-fotos/evolucao-graficos-games-banner.png"
+cover: capa.png
 ---
 
 Muitas franquias pioneiras no mundo dos jogos seguem ativas até os dias de hoje, em versões mais 
@@ -36,13 +38,13 @@ jogos evoluíram está na parte gráfica.
 Veja, na lista a seguir, os gráficos de alguns jogos atuais comparados com quando eles foram lançados. 
 Confira a evolução visual de grandes clássicos como **The Sims**, **Mortal Kombat** e **GTA** abaixo.
  
-![](/img/banco-de-fotos/nes-console.jpg)
+![](nes.jpg)
 
 > O Nintendo Entertainment System (NES), console em que o primeiro The Legend of Zelda foi lançado em 1986 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
 ## Tomb Raider – Shadow of the Tomb Raider
 
-![](/img/banco-de-fotos/playstation1.jpg)
+![](playstation1.jpg)
 
 > O PlayStation original, console em que Tomb Raider foi lançado em 1996 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -56,7 +58,7 @@ cenários, aproveitando muito bem as tecnologias das novas gerações.
 
 ## The Sims – The Sims 4
 
-![](/img/banco-de-fotos/sims-gaming-pc.jpg)
+![](pc-sims.jpg)
 
 > The Sims é um jogo de PC, plataforma que também evoluiu bastante desde o lançamento da franquia — Foto: Wikimedia Commons (CC BY-SA 2.0)
 
@@ -71,7 +73,7 @@ online. A sua expansão mais recente, **Vida Sustentável**, foi lançada em jun
 
 ## Castle Wolfenstein - Wolfenstein: Youngblood
 
-![](/img/banco-de-fotos/ibm-pc-5150.jpg)
+![](pc-wolfenstein.jpg)
 
 O primeiro jogo da franquia Wolfenstein marcou os primórdios dos jogos de stealth em computadores como este — Foto: Wikimedia Commons (CC BY-SA 3.0)
 
@@ -84,7 +86,7 @@ Cyberpilot.
 
 ## Doom – Doom Eternal
 
-![](/img/banco-de-fotos/compaq-deskpro-386.jpg)
+![](pc-doom.jpg)
 
 > Doom rodava em computadores pessoais como este, um marco dos jogos de tiro em primeira pessoa — Foto: Wikimedia Commons (CC0)
 
@@ -97,7 +99,7 @@ reboot que traz um Doom Slayer com mais equipamentos e mobilidade.
 
 ## Mortal Kombat - Mortal Kombat 11
 
-![](/img/banco-de-fotos/mortal-kombat-cabinet.jpg)
+![](mortal-kombat.jpg)
 
 > Gabinete de arcade de Mortal Kombat II — Foto: Wikimedia Commons (CC BY-SA 2.0)
 
@@ -110,7 +112,7 @@ conhecida, agora com uma nova história e grande foco no competitivo online.
 
 ## Grand Theft Auto - GTA 5
 
-![](/img/banco-de-fotos/ps4-console.jpg)
+![](ps4.jpg)
 
 > GTA V foi lançado para consoles da geração do PlayStation 4 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -123,7 +125,7 @@ exploração em mundo aberto aprimorada, mas também um modo online que é muito
 
 ## FIFA International Soccer - FIFA 20
 
-![](/img/banco-de-fotos/mega-drive.jpg)
+![](mega-drive.jpg)
 
 > O Mega Drive, console em que FIFA International Soccer foi lançado originalmente — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -142,7 +144,7 @@ real.
 
 ## Street Fighter – Street Fighter 5
 
-![](/img/banco-de-fotos/streetfighter-cabinet.jpg)
+![](street-fighter.jpg)
 
 > Gabinete de arcade do Street Fighter original — Foto: Wikimedia Commons (CC BY-SA 3.0)
 
@@ -157,7 +159,7 @@ opções de customização, competitivo online e gráficos aprimorados para os c
 
 ## The Legend of Zelda - Breath of the Wild
 
-![](/img/banco-de-fotos/wiiu-console.jpg)
+![](wiiu.jpg)
 
 > O Wii U, um dos consoles em que Breath of the Wild foi lançado em 2017 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -174,7 +176,7 @@ adição mais recente à franquia.
 
 ## Super Mario Bros. - Super Mario Odyssey
 
-![](/img/banco-de-fotos/switch-console.jpg)
+![](switch.jpg)
 
 > O Nintendo Switch, console em que Super Mario Odyssey foi lançado em 2017 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 

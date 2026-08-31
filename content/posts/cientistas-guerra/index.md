@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /posts/cientitas-guerra/
 title: "Cientistas na Segunda Guerra Mundial"
 author: Alunos
 date: 2022-01-21T07:48:01-07:00
@@ -9,13 +11,13 @@ tags:
   - Segunda Guerra mundial
   - Ciência
 description: "O papel decisivo dos cientistas nas inovações tecnológicas da Segunda Guerra Mundial, dos radares à bomba atômica."
-cover: "/img/banco-de-fotos/cientistas-guerra-banner.png"
+cover: capa.png
 ---
 
 O papel dos cientistas na Segunda Guerra Mundial foi de fundamental importância, haja vista que 
 foram eles os responsáveis pelas inovações tecnológicas aplicadas à guerra.
 
-![](/img/banco-de-fotos/kurchatov-1943.jpg)
+![](kurchatov.jpg)
 
 Igor Kurchatov foi um dos primeiros cientistas atômicos da URSS*
 

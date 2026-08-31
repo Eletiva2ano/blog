@@ -9,12 +9,12 @@ tags:
   - Bullying
   - Ciberbullying
 description: "Como o bullying afeta a vida escolar dos estudantes e qual o papel de pais e educadores no combate a essa prática."
-cover: "/img/banco-de-fotos/bullying-banner.png"
+cover: capa.png
 ---
 
-![](/img/banco-de-fotos/bullying-poster.png)
+![](poster.png)
 
-![](/img/banco-de-fotos/bullying-campaign.jpg)
+![](campanha.jpg)
 
 ## As 13 razões do BullyingAs 13 razões do Bullying
 

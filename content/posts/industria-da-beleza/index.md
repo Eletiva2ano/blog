@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /posts/a_indústria_da_beleza_e_pressão_estética/
 title: "A Indústria da Beleza e Pressão Estética"
 author: Alunos
 date: 2022-01-25T10:09:13-03:00
@@ -9,7 +11,7 @@ tags:
   - Beleza
 # avatar: /img/author.jpg
 description: "Como os padrões estéticos impostos pela sociedade capitalista alimentam a indústria da beleza e a pressão sobre nossos corpos."
-cover: "/img/banco-de-fotos/industria-da-beleza-banner.png"
+cover: capa.png
 ---
 
 ``` md
