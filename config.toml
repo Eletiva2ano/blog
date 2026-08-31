@@ -3,6 +3,7 @@ locale = "pt-BR"
 theme = "dream"
 defaultContentLanguage = "pt"
 title = "Eletiva"
+enableRobotsTXT = true
 
 [services]
   [services.googleAnalytics]
