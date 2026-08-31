@@ -2,197 +2,198 @@
 
 {{ define "css" }}
 
-{{ if .Site.Params.highlightjs }}
-{{ if .Site.Params.highlightjsTheme }}
-<link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/{{ .Site.Params.highlightjsTheme }}.min.css" />
+{{ if site.Params.customSyntaxHighlighting }}
+<link rel="stylesheet" data-custom-syntax-highlighting />
+<style>
+  .chroma {
+    padding: 1em;
+    background-color: var(--dream-pre-bg, #f5f5f5);
+    border-radius: .5em;
+    overflow: auto;
+  }
+
+  html.dark .chroma {
+    background-color: var(--dream-pre-bg-dark, #262626);
+  }
+</style>
 {{ else }}
-<link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/default.min.css" />
-{{ end }}
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
 {{ end }}
 
-{{ if .Site.Params.valine }}
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-{{ end }}
+{{ partialCached "commentSystemHeads.html" . }}
 
 {{ end }}
 
 {{ define "main" }}
-<div class="ui relaxed grid dream-grid dream-grid-single"{{ if .Site.Params.reversePostAndAside }}style="flex-direction: row-reverse;"{{ end }}>
-  <aside class="sixteen wide mobile sixteen wide tablet four wide computer column dream-single-aside">
-    <!-- len <nav id="TableOfContents"></nav> == 32 -->
-    {{ if ge (len .TableOfContents) 33 }}
-    <div class="ui segment toc">
-      {{ .TableOfContents }}
-    </div>
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    {{ if and hugo.IsProduction (fileExists "layouts/partials/adsense.html") }}
+      <div class="dream-adsense w-2/3">
+        {{ partialCached "adsense.html" . }}
+      </div>
     {{ end }}
-    <div class="ui segment actions">
-      <button
-        class="ui circular icon button save-as-image"
-        title="{{ i18n "saveAsImage" }}"
-        onclick="savePostAsImg()">
-        <i class="save icon"></i>
-      </button>
+  </div>
 
-      {{ partial "share.html" . }}
-    </div>
-  </aside>
-  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single" id="dream-save-post-as-img">
-    {{ if and .Params.Cover .Site.Params.showSummaryCoverInPost }}
-    <div class="ui top attached segment cover">
-      <div class="cover-img" style="background-image: url({{ .Params.Cover }});"></div>
-    </div>
-    {{ end }}
-    <section class="ui {{ if not .Site.Params.showSummaryCoverInPost }}top {{ end }}attached segment">
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      {{ template "_internal/schema.html" . }}
+
       <header>
-        <h1 class="ui large header">
-          {{- .Title -}}
-          <div class="sub header">
-            @
-            {{ if isset .Params "author" }}
-              {{ if isset .Params "authorlink" }}
-                <a href="{{ .Params.authorlink }}" target="_blank">{{ .Params.author }}</a>
-              {{ else }}
-                {{ .Params.author }}
-              {{ end }}
-            {{ else }}
-              {{ .Site.Params.author }}
-            {{ end }}
+        <h1 itemprop="headline">{{ .Title }}</h1>
+        <p class="text-sm">
+          {{ if site.Params.Experimental.jsDate }}
+            <span data-format="luxon">{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</span>
+          {{ else }}
+            {{ .Date | time.Format "Monday, Jan 2, 2006" }}
+          {{ end }}
 
-            | {{ if eq .Site.Language.Lang "zh" }}
-                {{ index .Site.Data.zh.Weekday (printf "%d" .Date.Weekday) }}，{{ index .Site.Data.zh.Month (printf "%d" .Date.Month) }} {{ .Date.Day }} 日，{{ .Date.Year }} 年
-              {{ else if eq .Site.Language.Lang "es" }}
-                {{ index .Site.Data.es.Weekday (printf "%d" .Date.Weekday) }}, {{ .Date.Day }} de {{ index .Site.Data.es.Month (printf "%d" .Date.Month) }} de {{ .Date.Year }}
-              {{- else if eq .Site.Language.Lang "pt" -}}
-                {{ index .Site.Data.pt.Weekday (printf "%d" .Date.Weekday) }}, {{ .Date.Day }} de {{ index .Site.Data.pt.Month (printf "%d" .Date.Month) }} de {{ .Date.Year }}
-              {{ else }}
-                {{ .Date.Format "Monday, Jan 2, 2006" }}
-              {{ end }}
+          | <span>{{ .ReadingTime }}{{ T "minuteRead" .ReadingTime }}</span>
 
-            | {{ .ReadingTime }}{{ i18n "minuteRead" }}
-
-            | {{ i18n "updateAt" }}
-              {{ if eq .Site.Language.Lang "zh" }}
-                {{ index .Site.Data.zh.Weekday (printf "%d" .Lastmod.Weekday) }}，{{ index .Site.Data.zh.Month (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Day }} 日，{{ .Lastmod.Year }} 年
-              {{ else if eq .Site.Language.Lang "es" }}
-                {{ index .Site.Data.es.Weekday (printf "%d" .Lastmod.Weekday) }}, {{ .Lastmod.Day }} de {{ index .Site.Data.es.Month (printf "%d" .Lastmod.Month) }} de {{ .Lastmod.Year }}
-              {{- else if eq .Site.Language.Lang "pt" -}}
-                {{ index .Site.Data.pt.Weekday (printf "%d" .Lastmod.Weekday) }}, {{ .Lastmod.Day }} de {{ index .Site.Data.pt.Month (printf "%d" .Lastmod.Month) }} de {{ .Lastmod.Year }}
+          {{ if ne .Params.nolastmod true }}
+            | <span>{{ T "updatedAt" }}
+              {{ if site.Params.Experimental.jsDate }}
+                <span data-format="luxon">{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</span>
               {{ else }}
-                {{ .Lastmod.Format "Monday, Jan 2, 2006" }}
+                {{ .Lastmod | time.Format "Monday, Jan 2, 2006" }}
               {{ end }}
-          </div>
-        </h1>
+            </span>
+          {{ end }}
+        </p>
+
+        {{ $hasAuthor := or .Params.author site.Params.author }}
+        <div class="flex justify-between">
+          {{ if $hasAuthor }}
+            {{ partial "author.html" (dict "Params" .Params "template" "single") }}
+          {{ end }}
+
+          {{ partial "share.html" . }}
+        </div>
       </header>
 
-      <article class="main">{{ .Content | emojify }}</article>
-    </section>
+      <section id="dream-single-post-content" itemprop="articleBody">
+        {{ if and .Params.Cover site.Params.showSummaryCoverInPost }}
+          <figure>
+            <img class="z-30" src="{{ .Params.Cover }}" alt="{{ .Title }}" />
+            {{ with .Params.covercaption }}
+              <figcaption class="text-sm italic text-center mt-2">{{ . }}</figcaption>
+            {{ end }}
+          </figure>
+        {{ end }}
 
-    {{ if .Site.DisqusShortname }}
-    <article class="ui segment post-disqus-area" data-html2canvas-ignore>
-      <div id="disqus_thread"></div>
-      <script>
-        /**
-         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-         */
+        {{ .Content | emojify }}
 
-        var disqus_config = function () {
-          this.page.url = '{{ .Permalink }}';  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = '{{ .RelPermalink }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
+        {{ if and hugo.IsProduction (fileExists "layouts/partials/adsense-post-bottom.html") }}
+          <div class="dream-adsense-post-bottom">
+            {{ partialCached "adsense-post-bottom.html" . }}
+          </div>
+        {{ end }}
+      </section>
 
-        (function() { // DON'T EDIT BELOW THIS LINE
-          var d = document, s = d.createElement('script');
-          s.src = 'https://' + '{{ .Site.DisqusShortname }}' + '.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      {{ if site.Params.showPrevNextPost }}
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        {{ with .NextInSection }}
+        <a role="button" class="btn btn-outline h-12" href="{{ .RelPermalink }}" title="{{ .Title }}">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 text-xs font-normal">{{ T "prevPage" }}</span>
+            <span class="max-w-48 truncate">{{ .LinkTitle }}</span>
+          </div>
+        </a>
+        {{ else }}
+        <div></div>
+        {{ end }}
+
+        {{ with .PrevInSection }}
+        <a role="button" class="btn btn-outline h-12" href="{{ .RelPermalink }}" title="{{ .Title }}">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 text-xs font-normal">{{ T "nextPage" }}</span>
+            <span class="max-w-48 truncate">{{ .LinkTitle }}</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        {{ else }}
+        <div></div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ if or site.Config.Services.Disqus.Shortname site.Params.utterancesRepo site.Params.valine site.Params.waline site.Params.twikoo.enabled }}
+      <div class="divider"></div>
+
+      <section class="space-y-4 not-prose">
+        {{ partialCached "commentSystems.html" . .RelPermalink }}
+      </section>
+      {{ end }}
     </article>
-    {{ end }}
+  </div>
 
-    {{ if .Site.Params.utterancesRepo }}
-    <article class="ui segment utterances-comments" data-html2canvas-ignore>
-      <script
-        src="https://utteranc.es/client.js"
-        repo="{{ .Site.Params.utterancesRepo }}"
-        issue-term="og:title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-      </script>
-    </article>
-    {{ end }}
-
-    {{ if .Site.Params.valine }}
-    <article class="ui segment" data-html2canvas-ignore>
-      <div id="vcomments"></div>
-    </article>
-
-    <script>
-    var langName = 'pt-br',
-    langMode = {	
-        "nick": "UserName",
-        "mail": "E-Mail",
-        "link": "Website(http://)",
-        "nickFail":"Seu nome de usuário não pode ser tão pequeno.",
-        "mailFail":"Por favor confirme seu endereço de e-mail.",
-        "sofa": "Nenhum comentário até agora.",
-        "submit": "Enviar",
-        "reply": "Responder",
-        "cancelReply": "Cancelar resposta",
-        "comments": "Comentários",
-        "cancel": "Cancelar",
-        "confirm": "Confirmar",
-        "continue": "Continuar",
-        "more": "Carregar mais...",
-        "preview": "Pré-visualização",
-        "emoji": "Emoji",
-        "expand": "Ver mais....",
-        "seconds": "Segundos atras",
-        "minutes": "Minutos atras",
-        "hours": "horas atras",
-        "days": "dias atras",
-        "now": "agora mesmo",
-        "uploading":"Enviando ...",
-        "uploadDone":"Envio concluido!",
-        "busy":"Submit is busy, please wait...",
-        "code-98":"Valine initialization failed, please check your version of av-min.js.",
-        "code-99": "Valine initialization failed, Please check the `el` element in the init method.",
-        "code-100": "Valine initialization failed, Please check your appId and appKey.",
-        "code-140":"The total number of API calls today has exceeded the development version limit.",
-        "code-401": "Unauthorized operation, Please check your appId and appKey.",
-        "code-403": "Access denied by API domain white list, Please check your security domain."
-    };
-
-      new Valine({
-        el: '#vcomments',
-        appId: {{ .Site.Params.LEANCLOUD_APP_ID }},
-        appKey: {{ .Site.Params.LEANCLOUD_APP_KEY }},
-        lang: langName,
-        langMode: langMode
-      })
-    </script>
+  <div
+    x-data="tocHighlighter()"
+    @scroll.window="debouncedScroll"
+    class="hidden lg:flex lg:flex-col lg:items-end"
+  >
+    {{ if site.Params.showTableOfContents }}
+      {{ .TableOfContents }}
     {{ end }}
   </div>
 </div>
 {{ end }}
 
 {{ define "js" }}
-<script src="{{ "/js/html2canvas.min.js" | relURL }}"></script>
-<script src="{{ "/js/post.js" | relURL }}"></script>
 
-{{ if .Site.Params.highlightjs }}
-<script src="{{ if .Site.Params.highlightjsCDN }}{{ .Site.Params.highlightjsCDN }}{{ else }}{{ "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js" }}{{ end}}"></script>
-
-{{ if .Site.Params.highlightjsExtraLanguages }}
-{{ range .Site.Params.highlightjsExtraLanguages }}
-<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/{{ . }}.min.js"></script>
-{{ end }}
+{{ if site.Params.Experimental.jsDate }}
+  {{ partial "luxon.html" . }}
 {{ end }}
 
-{{ partial "highlight.html" . }}
+{{ if site.Params.customSyntaxHighlighting }}
+  {{- $syntaxLightCSS := resources.Get "css/syntax-light.css" | minify -}}
+  {{- $syntaxDarkCSS := resources.Get "css/syntax-dark.css" | minify -}}
+
+  <script>
+    window.customSyntaxHighlighting = {
+      light: {{ $syntaxLightCSS.RelPermalink }},
+      dark: {{ $syntaxDarkCSS.RelPermalink }}
+    }
+
+    document.addEventListener('alpine:initialized', () => {
+      var isDark = Alpine.store('darkMode').isDark()
+      var customSyntaxHighlightingUrl = isDark ? window.customSyntaxHighlighting.dark : window.customSyntaxHighlighting.light
+
+      document
+        .querySelector('link[data-custom-syntax-highlighting]')
+        .setAttribute('href', customSyntaxHighlightingUrl)
+    })
+  </script>
+{{ end }}
+
+{{ $tocJs := resources.Get "js/toc.js" }}
+{{ if hugo.IsProduction }}
+  {{ $tocJs = $tocJs | minify }}
+{{ end }}
+<script src="{{ $tocJs.RelPermalink }}"></script>
+
+{{ if site.Params.imageZoomableInPost }}
+  {{ if fileExists "layouts/partials/medium-zoom.html" }}
+    {{ partialCached "medium-zoom.html" . }}
+  {{ else }}
+    <script type="module">
+      import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
+      mediumZoom('#dream-single-post-content img', {
+        background: 'oklch(var(--b1))',
+        margin: 24,
+      })
+    </script>
+  {{ end }}
+{{ end }}
+
+{{ if .Params.math }}
+  {{ .Page.Store.Set "hasMathjax" true }}
 {{ end }}
 
 {{ end }}

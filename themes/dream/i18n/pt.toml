@@ -1,57 +1,37 @@
-[blogAlias]
-other = "'s blog"
+# Alertas
+note = "Nota"
+tip = "Dica"
+important = "Importante"
+warning = "Aviso"
+caution = "Cuidado"
 
-[home]
-other = "Página inicial"
+home = "Página inicial"
+backToHome = "Voltar à página inicial"
+flip = "Virar!"
+about = "Sobre"
+search = "Pesquisar"
+prevPage = "Página anterior"
+nextPage = "Próxima página"
 
-[backToHome]
-other = "Voltar para a página inicial"
+archives = "Arquivos"
+allCategories = "Todas as categorias"
+allTags = "Todas as tags"
 
-[flip]
-other = "Girar!"
-
-[archives]
-other = "Arquivos"
-
-[allTags]
-other = "Todas as tags"
-
-[tag]
-one = "1 tag"
-other = "{{ .Count }} tags"
-
-[allCategories]
-other = "Todas as categorias"
-
-[category]
-one = "1 categoria"
-other = "{{ .Count }} categorias"
-
-[article]
-one = "1 artigo"
-other = "{{ .Count }} artigos"
-
-[socialLinks]
-other = "Links de redes sociais"
+updatedAt = "Atualizado em"
+socialLinks = "Links de redes sociais"
 
 [minuteRead]
 one = " minuto de leitura"
 other = " minutos de leitura"
 
-[updateAt]
-other = "Atualizado"
+[article]
+one = "1 artigo"
+other = "{{ .Count }} artigos"
 
-[noTag]
-other = "Sem tags"
+[category]
+one = "1 categoria"
+other = "{{ .Count }} categorias"
 
-[prevPage]
-other = "Página anterior"
-
-[nextPage]
-other = "Próxima página"
-
-[saveAsImage]
-other = "Salvar como imagem"
-
-[search]
-other = "Pesquisar"
+[tag]
+one = "1 tag"
+other = "{{ .Count }} tags"

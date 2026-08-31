@@ -1,54 +1,37 @@
-[blogAlias]
-other = "blog"
+# Alertas
+note = "Nota"
+tip = "Consejo"
+important = "Importante"
+warning = "Advertencia"
+caution = "Precaución"
 
-[home]
-other = "Inicio"
+home = "Inicio"
+backToHome = "Volver al inicio"
+flip = "¡Voltear!"
+about = "Acerca de"
+search = "Buscar"
+prevPage = "Página anterior"
+nextPage = "Página siguiente"
 
-[backToHome]
-other = "Volver a inicio"
+archives = "Archivo"
+allCategories = "Todas las categorías"
+allTags = "Todas las etiquetas"
 
-[flip]
-other = "Voltear!"
-
-[archives]
-other = "Archivos"
-
-[allTags]
-other = "Todas las etiquetas"
-
-[tag]
-one = "1 etiqueta"
-other = "{{ .Count }} etiquetas"
-
-[allCategories]
-other = "Todas las categorías"
-
-[category]
-one = "1 categoría"
-other = "{{ .Count }} categorías"
-
-[article]
-one = "1 artículo"
-other = "{{ .Count }} artículos"
-
-[socialLinks]
-other = "Enlaces sociales"
+updatedAt = "Actualizado el"
+socialLinks = "Enlaces sociales"
 
 [minuteRead]
 one = " minuto de lectura"
 other = " minutos de lectura"
 
-[updateAt]
-other = "Actualizado en"
+[article]
+one = "1 artículo"
+other = "{{ .Count }} artículos"
 
-[noTag]
-other = "Sin etiquetas"
+[category]
+one = "1 categoría"
+other = "{{ .Count }} categorías"
 
-[prevPage]
-other = "Página anterior"
-
-[nextPage]
-other = "Página siguiente"
-
-[saveAsImage]
-other = "Guardar como imagen"
+[tag]
+one = "1 etiqueta"
+other = "{{ .Count }} etiquetas"
