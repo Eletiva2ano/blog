@@ -69,7 +69,7 @@ demonstrou sua falta de embasamento científico. É incorreto definir fenômenos
 quanto a imensa variabilidade humana e a história da evolução do homem com um conceito estático e 
 estéril como o de "raça".
 
-![](frenologia.jpg)
+![Gráfico frenológico do século 19 medindo o crânio humano](frenologia.jpg)
 
 ##### Créditos: John Wilson Bengough, 1887 | Wikimedia Commons (Domínio Público)
 
@@ -87,7 +87,7 @@ afirmação ainda atual. Infelizmente, temos que admitir que ainda existem aquel
 existem "raças" humanas. Isso, apesar de a ciência provar que não há evidências suficientes ou 
 bases rigorosas para defini-las no ser humano.
 
-![](diversidade.jpg)
+![Grupo de pessoas de diferentes origens reunidas](diversidade.jpg)
 
 ##### Créditos: Lukasz Kobus / União Europeia | Wikimedia Commons (CC BY 4.0)
 

@@ -38,13 +38,13 @@ jogos evoluíram está na parte gráfica.
 Veja, na lista a seguir, os gráficos de alguns jogos atuais comparados com quando eles foram lançados. 
 Confira a evolução visual de grandes clássicos como **The Sims**, **Mortal Kombat** e **GTA** abaixo.
  
-![](nes.jpg)
+![Console Nintendo Entertainment System (NES)](nes.jpg)
 
 > O Nintendo Entertainment System (NES), console em que o primeiro The Legend of Zelda foi lançado em 1986 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
 ## Tomb Raider – Shadow of the Tomb Raider
 
-![](playstation1.jpg)
+![Console PlayStation original](playstation1.jpg)
 
 > O PlayStation original, console em que Tomb Raider foi lançado em 1996 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -58,7 +58,7 @@ cenários, aproveitando muito bem as tecnologias das novas gerações.
 
 ## The Sims – The Sims 4
 
-![](pc-sims.jpg)
+![Computador gamer moderno com múltiplos monitores](pc-sims.jpg)
 
 > The Sims é um jogo de PC, plataforma que também evoluiu bastante desde o lançamento da franquia — Foto: Wikimedia Commons (CC BY-SA 2.0)
 
@@ -73,7 +73,7 @@ online. A sua expansão mais recente, **Vida Sustentável**, foi lançada em jun
 
 ## Castle Wolfenstein - Wolfenstein: Youngblood
 
-![](pc-wolfenstein.jpg)
+![Computador IBM PC 5150, dos anos 1980](pc-wolfenstein.jpg)
 
 O primeiro jogo da franquia Wolfenstein marcou os primórdios dos jogos de stealth em computadores como este — Foto: Wikimedia Commons (CC BY-SA 3.0)
 
@@ -86,7 +86,7 @@ Cyberpilot.
 
 ## Doom – Doom Eternal
 
-![](pc-doom.jpg)
+![Computador Compaq Deskpro 386](pc-doom.jpg)
 
 > Doom rodava em computadores pessoais como este, um marco dos jogos de tiro em primeira pessoa — Foto: Wikimedia Commons (CC0)
 
@@ -99,7 +99,7 @@ reboot que traz um Doom Slayer com mais equipamentos e mobilidade.
 
 ## Mortal Kombat - Mortal Kombat 11
 
-![](mortal-kombat.jpg)
+![Gabinete de arcade de Mortal Kombat II](mortal-kombat.jpg)
 
 > Gabinete de arcade de Mortal Kombat II — Foto: Wikimedia Commons (CC BY-SA 2.0)
 
@@ -112,7 +112,7 @@ conhecida, agora com uma nova história e grande foco no competitivo online.
 
 ## Grand Theft Auto - GTA 5
 
-![](ps4.jpg)
+![Console PlayStation 4](ps4.jpg)
 
 > GTA V foi lançado para consoles da geração do PlayStation 4 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -125,7 +125,7 @@ exploração em mundo aberto aprimorada, mas também um modo online que é muito
 
 ## FIFA International Soccer - FIFA 20
 
-![](mega-drive.jpg)
+![Console Sega Mega Drive](mega-drive.jpg)
 
 > O Mega Drive, console em que FIFA International Soccer foi lançado originalmente — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -144,7 +144,7 @@ real.
 
 ## Street Fighter – Street Fighter 5
 
-![](street-fighter.jpg)
+![Gabinete de arcade do Street Fighter original](street-fighter.jpg)
 
 > Gabinete de arcade do Street Fighter original — Foto: Wikimedia Commons (CC BY-SA 3.0)
 
@@ -159,7 +159,7 @@ opções de customização, competitivo online e gráficos aprimorados para os c
 
 ## The Legend of Zelda - Breath of the Wild
 
-![](wiiu.jpg)
+![Console Nintendo Wii U](wiiu.jpg)
 
 > O Wii U, um dos consoles em que Breath of the Wild foi lançado em 2017 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 
@@ -176,7 +176,7 @@ adição mais recente à franquia.
 
 ## Super Mario Bros. - Super Mario Odyssey
 
-![](switch.jpg)
+![Console Nintendo Switch](switch.jpg)
 
 > O Nintendo Switch, console em que Super Mario Odyssey foi lançado em 2017 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
 

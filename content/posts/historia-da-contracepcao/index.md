@@ -69,6 +69,6 @@ O endoceptivo (contraceptivo endógeno - sistema de liberação intra-uterino) d
 
 > Fonte: https://m.pharma.bayer.com.br/pt/areas-terapeuticas
 
-![](metodos.jpg)
+![Diferentes métodos contraceptivos, incluindo pílulas e preservativos](metodos.jpg)
 
 ##### Créditos: GiftedLydia | Wikimedia Commons (CC BY-SA 4.0)

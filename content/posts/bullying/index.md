@@ -12,9 +12,9 @@ description: "Como o bullying afeta a vida escolar dos estudantes e qual o papel
 cover: capa.jpg
 ---
 
-![](poster.jpg)
+![Cartaz digital contra o bullying, com o texto 'Stop Bullying'](poster.jpg)
 
-![](campanha.jpg)
+![Cartazes de uma campanha de conscientização contra o bullying](campanha.jpg)
 
 ## As 13 razões do BullyingAs 13 razões do Bullying
 

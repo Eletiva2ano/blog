@@ -37,7 +37,7 @@ grupo de cientistas mais importantes do mundo.
 ## Ada Lovelace, Matemática 
 ⭐️ 1815 - ⚰️ 1852
 
-![](01.jpg)
+![Retrato de Ada Lovelace](01.jpg)
 
 #####               Créditos: Alfred Edward Chalon | Science Museum Group | Public Domain
 
@@ -46,7 +46,7 @@ Ada Lovelace é reconhecida como a primeira programadora de computadores, muito 
 ## Marie Curie, Física e Química 
 ⭐️ 1867 - ⚰️ 1934
 
-![](02.jpg)
+![Retrato de Marie Curie](02.jpg)
 
 #####             Créditos: Internet Archive Book Images | Flickr Commons
 
@@ -61,7 +61,7 @@ tornou a primeira pessoa na história a receber duas premiações.
 
 ⭐️ 1897 - ⚰️ 1984
 
-![](03.jpg)
+![Retrato de Janaki Ammal](03.jpg)
 
 #####             Créditos: John Innes Centre
 
@@ -73,7 +73,7 @@ Ambiental e lutou pela preservação da biodiversidade no país.
 
 ⭐️ 1912 - ⚰️ 1997
 
-![](04.jpg)
+![Retrato de Chien-Shiung Wu](04.jpg)
 
 #####           Créditos: Smithsonian Institution | Flickr Commons
 
@@ -86,7 +86,7 @@ trabalharam com ela, apesar de Wu ter sido figura central destes estudos.
 
 ⭐️ 1918 - ⚰️ 2020
 
-![](05.jpg)
+![Retrato de Katherine Johnson](05.jpg)
 
 #####           Créditos: NASA
 
@@ -98,7 +98,7 @@ história foi contada no filme Estrelas Além do Tempo.
 
 ⭐️ 1920 - ⚰️ 1958
 
-![](06.jpg)
+![Retrato de Rosalind Franklin](06.jpg)
 
 #####           Créditos: MRC Laboratory of Molecular Biology
 
@@ -110,7 +110,7 @@ descoberta.
 
 ⭐️ 1928 - ⚰️ 2016
 
-![](07.jpg)
+![Retrato de Vera Rubin](07.jpg)
 
 #####         Créditos: NOAO | AURA |NSF
 
@@ -122,7 +122,7 @@ Século XX – e mereceria um Prêmio Nobel.
 
 ⭐️ 1930
 
-![](08.jpg)
+![Retrato de Gladys West](08.jpg)
 
 #####          Créditos: U.S. Air Force
 
@@ -134,7 +134,7 @@ Fama da Força Aérea Americana, uma das maiores honras que alguém pode receber
 
 ⭐️ 1947
 
-![](09.jpg)
+![Retrato de Flossie Wong-Staal](09.jpg)
 
 #####         Créditos: Bill Branson | National Cancer Institute
 
@@ -144,7 +144,7 @@ Wong-Staal foi a primeira cientista a clonar o vírus HIV e mapear seus genes, o
 
 ⭐️ 1964
 
-![](10.jpg)
+![Retrato de Jennifer Doudna](10.jpg)
 
 #####         Créditos: Duncan Hull
 

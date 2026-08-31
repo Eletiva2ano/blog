@@ -17,7 +17,7 @@ cover: capa.jpg
 O papel dos cientistas na Segunda Guerra Mundial foi de fundamental importância, haja vista que 
 foram eles os responsáveis pelas inovações tecnológicas aplicadas à guerra.
 
-![](kurchatov.jpg)
+![Igor Kurchatov trabalhando em seu escritório em Moscou, 1943](kurchatov.jpg)
 
 Igor Kurchatov foi um dos primeiros cientistas atômicos da URSS*
 

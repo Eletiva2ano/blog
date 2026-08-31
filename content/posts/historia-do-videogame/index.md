@@ -24,7 +24,7 @@ cover: capa.jpg
 
 > Novos videogames são lançados frequentemente, mas por trás de gráficos bonitos, há uma história extensa
 
-![](exposicao.jpg)
+![Exposição sobre a história dos videogames](exposicao.jpg)
 
 *Com o tempo, as empresas foram adaptando os videogames*
 
@@ -40,7 +40,7 @@ mundo.
 
 ## Magnavox Odyssey 
 
-![](magnavox.jpg)
+![Console Magnavox Odyssey](magnavox.jpg)
 
 > Magnavox Odyssey foi o primeiro videogame da história
 ##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
@@ -56,7 +56,7 @@ processadores disponíveis, os jogos não tinham cores e ambientes complexos. Al
 precisava colocar um filtro plástico, vendido com os game cards, na frente da tela da TV para dar 
 a ilusão de linhas, cenários, cores e contornos durante o gameplay.
 
-![](magnavox-acessorios.jpg)
+![Acessórios do Magnavox Odyssey, como dados e fichas de pôquer](magnavox-acessorios.jpg)
 
 ##### Créditos: The History of How We Play | Wikimedia Commons (CC0)
 
@@ -66,7 +66,7 @@ digital, daí a necessidade desses acessórios curiosos.
 
 ## Atari 2600
 
-![](atari-2600.jpg)
+![Console Atari 2600](atari-2600.jpg)
 
 > O Atari lançado com essa nova versão em 1977 revolucionou o mundo dos games
 ##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
@@ -91,7 +91,7 @@ da Atari.
 
 ## Mega Drive
 
-![](mega-drive.jpg)
+![Console Sega Mega Drive](mega-drive.jpg)
 
 > O Mega Drive disputava vendas com o Nintendo 64
 ##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
@@ -100,7 +100,7 @@ O Mega Drive da Sega chegou para criar mais uma geração de videogames com seus
 
 ## Playstation 1
 
-![](playstation1.jpg)
+![Console PlayStation original](playstation1.jpg)
 
 ##### Créditos: Evan-Amos | Wikimedia Commons (Domínio Público)
 
