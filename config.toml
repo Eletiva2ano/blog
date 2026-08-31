@@ -27,3 +27,6 @@ title = "Eletiva"
   rss = true
 
   siteStartYear = 2021
+
+  [params.advanced]
+    customCSS = ["css/custom.css"]
