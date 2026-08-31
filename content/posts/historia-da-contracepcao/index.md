@@ -64,7 +64,7 @@ anos mais tarde.
 ## O implante
 A inovação contraceptiva seguinte foi pequeno implante que continha o hormônio levonorgestrel. Esse implante deve ser inserido sob a pele da face interna do antebraço, tendo sido projetado para ser eficaz por cinco anos. Entretanto, sua inserção e extração requerem pessoal médico treinado, o que limita seu uso. O hormônio é liberado na musculatura e então passa à corrente sanguínea, podendo circular por todo o organismo e provocar alguns efeitos adversos.
 
-## O endocptivo
+## O endoceptivo
 O endoceptivo (contraceptivo endógeno - sistema de liberação intra-uterino) desenvolvido e patenteado pelo grupo Schering, inaugura uma fase inovadora na contracepção feminina. Consiste basicamente em um sistema que é inserido no útero da mulher e libera o hormônio levonorgestrel gradativamente em doses idealmente mais baixas, por um período de cinco anos. O método é altamente eficaz e totalmente reversível, sendo especialmente indicado para mulheres com filhos que desejam adiar uma nova gravidez por um longo prazo.
 
 > Fonte: https://m.pharma.bayer.com.br/pt/areas-terapeuticas

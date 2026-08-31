@@ -16,7 +16,7 @@ cover: capa.jpg
 
 ![Cartazes de uma campanha de conscientização contra o bullying](campanha.jpg)
 
-## As 13 razões do BullyingAs 13 razões do Bullying
+## As 13 razões do Bullying
 
 O bullying é uma ação cada dia mais comum no meio escolar, porém, o que a grande maioria não se 
 dá conta, é que ela pode ter consequências graves em todas as instâncias da vida da pessoa. 
