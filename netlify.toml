@@ -7,3 +7,4 @@
   HUGO_EXTENDED = "true"
   HUGO_ENV = "production"
   HUGO_ENVIRONMENT = "production"
+  NODE_VERSION = "24"
