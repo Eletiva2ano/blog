@@ -7,7 +7,7 @@ tags:
   - Contraceptivos
   - História
   - Mulher
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/934109411746648074/2fc781ec-6263-43ad-a5fc-ab1dab258127.png"
+cover: "/img/banco-de-fotos/breve-historia-contracepcao-banner.png"
 ---
 
 ## As primeiras tentativas

@@ -8,7 +8,7 @@ tags:
   - Estética
   - Beleza
 # avatar: /img/author.jpg
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/935521578899374090/249fcba4-8c1c-4dce-8053-03760b18b6e7.png"
+cover: "/img/banco-de-fotos/industria-da-beleza-banner.png"
 ---
 
 ``` md

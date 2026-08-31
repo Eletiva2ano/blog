@@ -22,7 +22,7 @@ tags:
   - Doom
   - Mortal Kombat
   - The Sims
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/935547910710517790/581f88e0-c06c-4de0-9ee2-ad956f83898b.png"
+cover: "/img/banco-de-fotos/evolucao-graficos-games-banner.png"
 ---
 
 Muitas franquias pioneiras no mundo dos jogos seguem ativas até os dias de hoje, em versões mais 

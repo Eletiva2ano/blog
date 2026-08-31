@@ -16,7 +16,7 @@ tags:
   - Crash Bandicoot
   - Activision
   - Sega
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/935517485426438204/c4c62bb7-038b-4427-89e0-a7deed7783ad.png"
+cover: "/img/banco-de-fotos/historia-do-videogame-banner.png"
 ---
 
 > Novos videogames são lançados frequentemente, mas por trás de gráficos bonitos, há uma história extensa
