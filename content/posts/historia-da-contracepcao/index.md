@@ -10,7 +10,7 @@ tags:
   - História
   - Mulher
 description: "Uma linha do tempo dos métodos contraceptivos, da Antiguidade até os dispositivos hormonais modernos."
-cover: capa.png
+cover: capa.jpg
 ---
 
 ## As primeiras tentativas

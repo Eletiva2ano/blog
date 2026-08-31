@@ -9,10 +9,10 @@ tags:
   - Bullying
   - Ciberbullying
 description: "Como o bullying afeta a vida escolar dos estudantes e qual o papel de pais e educadores no combate a essa prática."
-cover: capa.png
+cover: capa.jpg
 ---
 
-![](poster.png)
+![](poster.jpg)
 
 ![](campanha.jpg)
 

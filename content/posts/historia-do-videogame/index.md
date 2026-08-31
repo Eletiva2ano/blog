@@ -19,7 +19,7 @@ tags:
   - Activision
   - Sega
 description: "Relembre os consoles que marcaram época, do pioneiro Magnavox Odyssey ao PlayStation 1."
-cover: capa.png
+cover: capa.jpg
 ---
 
 > Novos videogames são lançados frequentemente, mas por trás de gráficos bonitos, há uma história extensa

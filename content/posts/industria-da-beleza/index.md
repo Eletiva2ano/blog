@@ -11,7 +11,7 @@ tags:
   - Beleza
 # avatar: /img/author.jpg
 description: "Como os padrões estéticos impostos pela sociedade capitalista alimentam a indústria da beleza e a pressão sobre nossos corpos."
-cover: capa.png
+cover: capa.jpg
 ---
 
 ``` md

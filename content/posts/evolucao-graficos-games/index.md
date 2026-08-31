@@ -25,7 +25,7 @@ tags:
   - Mortal Kombat
   - The Sims
 description: "Uma comparação da evolução gráfica de franquias clássicas dos videogames, do primeiro título até os lançamentos mais recentes."
-cover: capa.png
+cover: capa.jpg
 ---
 
 Muitas franquias pioneiras no mundo dos jogos seguem ativas até os dias de hoje, em versões mais 

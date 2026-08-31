@@ -11,7 +11,7 @@ tags:
   - Consciencia Negra
   - Ciência
 description: "Como a ciência moderna desmontou a ideia de que existem diferentes raças humanas."
-cover: capa.png
+cover: capa.jpg
 ---
 
 ----

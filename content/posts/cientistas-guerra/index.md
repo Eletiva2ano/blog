@@ -11,7 +11,7 @@ tags:
   - Segunda Guerra mundial
   - Ciência
 description: "O papel decisivo dos cientistas nas inovações tecnológicas da Segunda Guerra Mundial, dos radares à bomba atômica."
-cover: capa.png
+cover: capa.jpg
 ---
 
 O papel dos cientistas na Segunda Guerra Mundial foi de fundamental importância, haja vista que 
