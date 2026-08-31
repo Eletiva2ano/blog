@@ -8,7 +8,7 @@ tags:
   - Racismo
   - Bullying
   - Ciberbullying
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/934104686376648734/e3ad3de6-9d0f-4c44-94d6-a5f5e79d6b80.png"
+cover: "/img/banco-de-fotos/bullying-banner.png"
 ---
 
 ![](https://cdn.discordapp.com/attachments/806642907263139850/934106542586884116/unknown.png)

@@ -8,7 +8,7 @@ tags:
   - Guerra
   - Segunda Guerra mundial
   - Ciência
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/934101586299457596/c32c75c0-8b62-4461-8ef5-6413914fa933.png"
+cover: "/img/banco-de-fotos/cientistas-guerra-banner.png"
 ---
 
 O papel dos cientistas na Segunda Guerra Mundial foi de fundamental importância, haja vista que 

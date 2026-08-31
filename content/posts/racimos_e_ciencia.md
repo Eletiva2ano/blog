@@ -8,7 +8,7 @@ tags:
   - Racismo
   - Consciencia Negra
   - Ciência
-cover: "https://cdn.discordapp.com/attachments/806642907263139850/934096543974293514/4041833a-6fcc-4237-b054-f2902711f80a.png"
+cover: "/img/banco-de-fotos/racismo-ciencia-banner.png"
 ---
 
 ----
