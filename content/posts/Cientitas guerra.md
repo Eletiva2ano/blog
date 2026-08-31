@@ -8,6 +8,7 @@ tags:
   - Guerra
   - Segunda Guerra mundial
   - Ciência
+description: "O papel decisivo dos cientistas nas inovações tecnológicas da Segunda Guerra Mundial, dos radares à bomba atômica."
 cover: "/img/banco-de-fotos/cientistas-guerra-banner.png"
 ---
 

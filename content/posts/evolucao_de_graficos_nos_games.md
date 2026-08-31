@@ -22,6 +22,7 @@ tags:
   - Doom
   - Mortal Kombat
   - The Sims
+description: "Uma comparação da evolução gráfica de franquias clássicas dos videogames, do primeiro título até os lançamentos mais recentes."
 cover: "/img/banco-de-fotos/evolucao-graficos-games-banner.png"
 ---
 

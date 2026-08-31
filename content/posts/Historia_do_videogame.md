@@ -16,6 +16,7 @@ tags:
   - Crash Bandicoot
   - Activision
   - Sega
+description: "Relembre os consoles que marcaram época, do pioneiro Magnavox Odyssey ao PlayStation 1."
 cover: "/img/banco-de-fotos/historia-do-videogame-banner.png"
 ---
 

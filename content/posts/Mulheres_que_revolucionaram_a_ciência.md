@@ -8,6 +8,7 @@ tags:
   - Mulheres
   - Respeito
   - Ciência
+description: "Conheça 10 mulheres cientistas que revolucionaram a ciência e mudaram a forma como enxergamos o universo."
 cover: "/img/banco-de-fotos/Mulheres-e-ciencia-banner.png"
 ---
 

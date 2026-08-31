@@ -7,6 +7,7 @@ tags:
   - Contraceptivos
   - História
   - Mulher
+description: "Uma linha do tempo dos métodos contraceptivos, da Antiguidade até os dispositivos hormonais modernos."
 cover: "/img/banco-de-fotos/breve-historia-contracepcao-banner.png"
 ---
 

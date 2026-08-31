@@ -8,6 +8,7 @@ tags:
   - Estética
   - Beleza
 # avatar: /img/author.jpg
+description: "Como os padrões estéticos impostos pela sociedade capitalista alimentam a indústria da beleza e a pressão sobre nossos corpos."
 cover: "/img/banco-de-fotos/industria-da-beleza-banner.png"
 ---
 

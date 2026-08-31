@@ -8,6 +8,7 @@ tags:
   - Racismo
   - Bullying
   - Ciberbullying
+description: "Como o bullying afeta a vida escolar dos estudantes e qual o papel de pais e educadores no combate a essa prática."
 cover: "/img/banco-de-fotos/bullying-banner.png"
 ---
 

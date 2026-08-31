@@ -7,6 +7,7 @@ tags:
   - Sociedade
   - Bullyng
   - Respeito
+description: "Um convite para promover a tolerância e a diversidade, e denunciar o ódio contra as pessoas LGBTI."
 cover: "/img/banco-de-fotos/tolerancia-e-a-diversidade-banner.png"
 
 ---
