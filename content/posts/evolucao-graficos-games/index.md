@@ -38,15 +38,15 @@ jogos evoluíram está na parte gráfica.
 Veja, na lista a seguir, os gráficos de alguns jogos atuais comparados com quando eles foram lançados. 
 Confira a evolução visual de grandes clássicos como **The Sims**, **Mortal Kombat** e **GTA** abaixo.
  
-![Console Nintendo Entertainment System (NES)](nes.jpg)
+![Comparação gráfica de The Legend of Zelda, do jogo original até uma versão mais recente](nes.jpg)
 
-> O Nintendo Entertainment System (NES), console em que o primeiro The Legend of Zelda foi lançado em 1986 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
+> 22 anos depois de seu lançamento, The Legend of Zelda teve grandes mudanças na aparência
 
 ## Tomb Raider – Shadow of the Tomb Raider
 
-![Console PlayStation original](playstation1.jpg)
+![Comparação gráfica de Tomb Raider, do jogo original até Shadow of the Tomb Raider](playstation1.jpg)
 
-> O PlayStation original, console em que Tomb Raider foi lançado em 1996 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
+> Mesmo com o passar dos anos, Tomb Raider ainda mantém o foco na exploração
 
 Tomb Raider, que foi originalmente lançado em 1996, é um jogo de aventura protagonizado pela 
 arqueóloga britânica Lara Croft. O título fez muito sucesso com a sua mecânica de exploração inovadora 
@@ -58,9 +58,9 @@ cenários, aproveitando muito bem as tecnologias das novas gerações.
 
 ## The Sims – The Sims 4
 
-![Computador gamer moderno com múltiplos monitores](pc-sims.jpg)
+![Comparação gráfica de The Sims, do jogo original até The Sims 4](pc-sims.jpg)
 
-> The Sims é um jogo de PC, plataforma que também evoluiu bastante desde o lançamento da franquia — Foto: Wikimedia Commons (CC BY-SA 2.0)
+> A simulação de vida de The Sims foi ganhando cada vez mais possibilidades com o passar do tempo
 
 Quando foi lançado em 2000, o simulador de vida The Sims foi um sucesso absoluto. Com um estilo 
 cômico, ele colocava o jogador no controle dos divertidos Sims, habitantes de uma cidade virtual que 
@@ -73,9 +73,9 @@ online. A sua expansão mais recente, **Vida Sustentável**, foi lançada em jun
 
 ## Castle Wolfenstein - Wolfenstein: Youngblood
 
-![Computador IBM PC 5150, dos anos 1980](pc-wolfenstein.jpg)
+![Comparação gráfica de Castle Wolfenstein até Wolfenstein: Youngblood](pc-wolfenstein.jpg)
 
-O primeiro jogo da franquia Wolfenstein marcou os primórdios dos jogos de stealth em computadores como este — Foto: Wikimedia Commons (CC BY-SA 3.0)
+O primeiro jogo da franquia Wolfenstein marcou os primórdios dos jogos de stealth
 
 A franquia Wolfenstein nasceu em 1981 com o jogo de ação para computadores Castle Wolfenstein. Baseado 
 no filme de guerra Os Canhões de Navarone, ele teve diversas sequências, entre elas Wolfenstein 3D de 
@@ -86,9 +86,9 @@ Cyberpilot.
 
 ## Doom – Doom Eternal
 
-![Computador Compaq Deskpro 386](pc-doom.jpg)
+![Comparação gráfica de Doom, do jogo original até Doom Eternal](pc-doom.jpg)
 
-> Doom rodava em computadores pessoais como este, um marco dos jogos de tiro em primeira pessoa — Foto: Wikimedia Commons (CC0)
+> A brutalidade continua sendo marca da franquia Doom
 
 Quando Doom foi lançado, em 1993, ele se tornou um marco dos videogames. Até hoje, ele é conhecido 
 como um dos mais influentes da história dos games, sendo precursor entre os jogos de tiro em primeira 
@@ -99,9 +99,9 @@ reboot que traz um Doom Slayer com mais equipamentos e mobilidade.
 
 ## Mortal Kombat - Mortal Kombat 11
 
-![Gabinete de arcade de Mortal Kombat II](mortal-kombat.jpg)
+![Comparação gráfica de Mortal Kombat, do jogo original até Mortal Kombat 11](mortal-kombat.jpg)
 
-> Gabinete de arcade de Mortal Kombat II — Foto: Wikimedia Commons (CC BY-SA 2.0)
+> Os famosos fatalities nasceram logo no primeiro Mortal Kombat
 
 Mortal Kombat chegou aos arcades em 1992, chamando muita atenção por usar sprites digitalizados, com a 
 imagem de atores reais. O primeiro Mortal Kombat se diferenciava por ser um jogo luta sangrento e bem 
@@ -112,9 +112,9 @@ conhecida, agora com uma nova história e grande foco no competitivo online.
 
 ## Grand Theft Auto - GTA 5
 
-![Console PlayStation 4](ps4.jpg)
+![Comparação gráfica de Grand Theft Auto, do jogo original até GTA 5](ps4.jpg)
 
-> GTA V foi lançado para consoles da geração do PlayStation 4 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
+> Os novos jogos da franquia GTA impressionam pela riqueza de detalhes
 
 Grand Theft Auto é um jogo de ação com visão superior em que o jogador controla um criminoso que deve 
 fazer trabalhos em cidades fictícias dos EUA. O primeiro título foi lançado em 1997. A jogabilidade de 
@@ -125,9 +125,9 @@ exploração em mundo aberto aprimorada, mas também um modo online que é muito
 
 ## FIFA International Soccer - FIFA 20
 
-![Console Sega Mega Drive](mega-drive.jpg)
+![Comparação gráfica de FIFA International Soccer até FIFA 20](mega-drive.jpg)
 
-> O Mega Drive, console em que FIFA International Soccer foi lançado originalmente — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
+> Hoje FIFA é uma das maiores franquias de jogos do mundo
 
 A aclamada franquia de jogos de futebol **FIFA** nasceu em 1993 com o jogo FIFA International Soccer. 
 
@@ -144,9 +144,9 @@ real.
 
 ## Street Fighter – Street Fighter 5
 
-![Gabinete de arcade do Street Fighter original](street-fighter.jpg)
+![Comparação gráfica de Street Fighter, do jogo original até Street Fighter 5](street-fighter.jpg)
 
-> Gabinete de arcade do Street Fighter original — Foto: Wikimedia Commons (CC BY-SA 3.0)
+> Street Fighter foi o primeiro jogo de luta produzido pela Capcom
 
 Street Fighter é uma das mais populares franquias de jogos de luta no mercado, mas a série passou por 
 muitas transformações ao longo dos anos. A franquia nasceu como um jogo de arcade em 1987 que tinha um 
@@ -159,9 +159,9 @@ opções de customização, competitivo online e gráficos aprimorados para os c
 
 ## The Legend of Zelda - Breath of the Wild
 
-![Console Nintendo Wii U](wiiu.jpg)
+![Comparação gráfica de The Legend of Zelda, do jogo original até Breath of the Wild](wiiu.jpg)
 
-> O Wii U, um dos consoles em que Breath of the Wild foi lançado em 2017 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
+> A ideia para The Legend of Zelda veio das brincadeiras de infância de Shigeru Miyamoto
 
 m 1986 chegava ao mercado **The Legend of Zelda**, um jogo de aventura para Famicom protagonizado por 
 um garoto chamado Link. Com visão superior e gráficos em 8-bit, o game foi um grande sucesso 
@@ -176,9 +176,9 @@ adição mais recente à franquia.
 
 ## Super Mario Bros. - Super Mario Odyssey
 
-![Console Nintendo Switch](switch.jpg)
+![Comparação gráfica de Super Mario Bros. até Super Mario Odyssey](switch.jpg)
 
-> O Nintendo Switch, console em que Super Mario Odyssey foi lançado em 2017 — Foto: Evan-Amos | Wikimedia Commons (Domínio Público)
+> Mario, protagonista dos jogos da série Super Mario Bros., ficou eternizado como o mascote da Nintendo
 
 Apesar de não ter sido o primeiro jogo do personagem, a franquia protagonizada pelo encanador bigodudo 
 surgiu em 1985 com **Super Mario Bros**. No jogo de plataforma 8-bit, os irmãos Mario e Luigi viviam 

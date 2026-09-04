@@ -71,8 +71,6 @@ estéril como o de "raça".
 
 ![Gráfico frenológico do século 19 medindo o crânio humano](frenologia.jpg)
 
-##### Créditos: John Wilson Bengough, 1887 | Wikimedia Commons (Domínio Público)
-
 A terminologia mudou de raça para ancestralidade. Isso se refere a características herdadas dos 
 pais e ancestrais de uma pessoa. Essa mudança também foi necessária porque não é verdade que um 
 indivíduo pertença a uma área específica. A globalização mudou a distribuição de características 
@@ -88,8 +86,6 @@ existem "raças" humanas. Isso, apesar de a ciência provar que não há evidên
 bases rigorosas para defini-las no ser humano.
 
 ![Grupo de pessoas de diferentes origens reunidas](diversidade.jpg)
-
-##### Créditos: Lukasz Kobus / União Europeia | Wikimedia Commons (CC BY 4.0)
 
                               Sob nossa pele, somos todos iguais.
 

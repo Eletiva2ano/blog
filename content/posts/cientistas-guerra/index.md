@@ -19,9 +19,7 @@ foram eles os responsáveis pelas inovações tecnológicas aplicadas à guerra.
 
 ![Igor Kurchatov trabalhando em seu escritório em Moscou, 1943](kurchatov.jpg)
 
-Igor Kurchatov foi um dos primeiros cientistas atômicos da URSS*
-
-##### Créditos: Evgeny Tikhanov / TASS, 1943 | Wikimedia Commons (Domínio Público)
+Igor Kurchatov foi um dos primeiros cientistas atômicos da URSS
 As guerras modernas, assim como quaisquer outras práticas humanas realizadas a partir do 
 desenvolvimento da ciência moderna, nos séculos XVI e XVII, destacaram-se por um progressivo 
 avanço tecnológico. Dos canhões, terrestres e navais, do século XVIII às bombas atômicas do 
@@ -59,4 +57,3 @@ responsável pelo desenvolvimento da bomba de hidrogênio, depois de terminada a
 NOTAS
  
 [1] DAVIES, Norman. A Europa em Guerra. Lisboa: Edições 70, 2006. p. 459.
-* Créditos da imagem: Shutterstock e rook76
